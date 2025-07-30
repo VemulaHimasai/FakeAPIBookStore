@@ -1,8 +1,16 @@
-2025-07-30 12:21:07 [main] INFO  api.test.UserTests - *********Creating User*********
-2025-07-30 12:21:12 [main] INFO  api.test.UserTests - *********User is created **********
-2025-07-30 12:21:12 [main] INFO  api.test.UserTests - *********Reading User Info***************
-2025-07-30 12:21:12 [main] INFO  api.test.UserTests - *******User is displayed*******
-2025-07-30 12:21:12 [main] INFO  api.test.UserTests - *******Updating user ***********
-2025-07-30 12:21:13 [main] INFO  api.test.UserTests - **********User Updated***********
-2025-07-30 12:21:13 [main] INFO  api.test.UserTests - **********Deleting User***********
-2025-07-30 12:21:14 [main] INFO  api.test.UserTests - ************User Deleted***********
+2025-07-30 12:42:39 [main] INFO  api.test.UserTests - *********Creating User*********
+2025-07-30 12:42:43 [main] INFO  api.test.UserTests - *********User is created **********
+2025-07-30 12:42:43 [main] INFO  api.test.UserTests - *********Reading User Info***************
+2025-07-30 12:42:44 [main] INFO  api.test.UserTests - *******User is displayed*******
+2025-07-30 12:42:44 [main] INFO  api.test.UserTests - *******Updating user ***********
+2025-07-30 12:42:45 [main] INFO  api.test.UserTests - **********User Updated***********
+2025-07-30 12:42:45 [main] INFO  api.test.UserTests - **********Deleting User***********
+2025-07-30 12:42:45 [main] INFO  api.test.UserTests - ************User Deleted***********
+2025-07-30 12:42:45 [main] INFO  api.test.UserTests2 - *********Creating User*********
+2025-07-30 12:42:46 [main] INFO  api.test.UserTests2 - *********User is created **********
+2025-07-30 12:42:46 [main] INFO  api.test.UserTests2 - *********Reading User Info***************
+2025-07-30 12:42:47 [main] INFO  api.test.UserTests2 - *******User is displayed*******
+2025-07-30 12:42:47 [main] INFO  api.test.UserTests2 - *******Updating user ***********
+2025-07-30 12:42:47 [main] INFO  api.test.UserTests2 - **********User Updated***********
+2025-07-30 12:42:47 [main] INFO  api.test.UserTests2 - **********Deleting User***********
+2025-07-30 12:42:48 [main] INFO  api.test.UserTests2 - ************User Deleted***********
