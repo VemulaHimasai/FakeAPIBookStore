@@ -1,16 +1,16 @@
-2025-07-30 12:42:39 [main] INFO  api.test.UserTests - *********Creating User*********
-2025-07-30 12:42:43 [main] INFO  api.test.UserTests - *********User is created **********
-2025-07-30 12:42:43 [main] INFO  api.test.UserTests - *********Reading User Info***************
-2025-07-30 12:42:44 [main] INFO  api.test.UserTests - *******User is displayed*******
-2025-07-30 12:42:44 [main] INFO  api.test.UserTests - *******Updating user ***********
-2025-07-30 12:42:45 [main] INFO  api.test.UserTests - **********User Updated***********
-2025-07-30 12:42:45 [main] INFO  api.test.UserTests - **********Deleting User***********
-2025-07-30 12:42:45 [main] INFO  api.test.UserTests - ************User Deleted***********
-2025-07-30 12:42:45 [main] INFO  api.test.UserTests2 - *********Creating User*********
-2025-07-30 12:42:46 [main] INFO  api.test.UserTests2 - *********User is created **********
-2025-07-30 12:42:46 [main] INFO  api.test.UserTests2 - *********Reading User Info***************
-2025-07-30 12:42:47 [main] INFO  api.test.UserTests2 - *******User is displayed*******
-2025-07-30 12:42:47 [main] INFO  api.test.UserTests2 - *******Updating user ***********
-2025-07-30 12:42:47 [main] INFO  api.test.UserTests2 - **********User Updated***********
-2025-07-30 12:42:47 [main] INFO  api.test.UserTests2 - **********Deleting User***********
-2025-07-30 12:42:48 [main] INFO  api.test.UserTests2 - ************User Deleted***********
+2025-07-31 11:08:47 [main] INFO  api.test.BookTests - *********Creating Book*********
+2025-07-31 11:08:52 [main] INFO  api.test.BookTests - *********Book is created **********
+2025-07-31 11:08:52 [main] INFO  api.test.BookTests - *********Reading Book Info***************
+2025-07-31 11:08:53 [main] INFO  api.test.BookTests - *******Book is displayed*******
+2025-07-31 11:08:53 [main] INFO  api.test.BookTests - *******Updating Book ***********
+2025-07-31 11:08:53 [main] INFO  api.test.BookTests - **********Book Updated***********
+2025-07-31 11:08:53 [main] INFO  api.test.BookTests - **********Deleting Book***********
+2025-07-31 11:08:54 [main] INFO  api.test.BookTests - ************Book Deleted***********
+2025-07-31 11:08:54 [main] INFO  api.test.BookTests2 - *********Creating Book*********
+2025-07-31 11:08:55 [main] INFO  api.test.BookTests2 - *********Book is created **********
+2025-07-31 11:08:55 [main] INFO  api.test.BookTests2 - *********Reading Book Info***************
+2025-07-31 11:08:55 [main] INFO  api.test.BookTests2 - *******Book is displayed*******
+2025-07-31 11:08:55 [main] INFO  api.test.BookTests2 - *******Updating Book ***********
+2025-07-31 11:08:56 [main] INFO  api.test.BookTests2 - **********Book Updated***********
+2025-07-31 11:08:56 [main] INFO  api.test.BookTests2 - **********Deleting Book***********
+2025-07-31 11:08:57 [main] INFO  api.test.BookTests2 - ************Book Deleted***********

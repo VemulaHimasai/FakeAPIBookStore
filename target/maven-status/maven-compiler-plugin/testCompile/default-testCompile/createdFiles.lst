@@ -1,4 +1,7 @@
 api\test\UserTests.class
+api\payload\Book.class
+api\test\BookTests.class
+api\test\DDTestsBook.class
 api\utilities\ExtentReportManager.class
 api\utilities\DataProviders.class
 api\endpoints\UserEndPoints.class
@@ -6,7 +9,12 @@ api\payload\User.class
 api\endpoints\Routes.class
 api\endpoints\UserEndPoints2.class
 api\test\DDTests.class
+api\endpoints\BookEndPoints.class
 api\test\UserTests2.class
+api\utilities\DataProvidersBook.class
 api\utilities\XLUtility.class
 api\utilities\RetryUtil.class
+api\test\BookTests2.class
+api\utilities\XLUtilityBook.class
+api\endpoints\BookEndPoints2.class
 api\utilities\XLUtility$1.class

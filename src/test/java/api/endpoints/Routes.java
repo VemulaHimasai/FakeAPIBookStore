@@ -16,5 +16,15 @@ public class Routes {
 	
 	public static String delete_user_url = base_url+"api/v1/Users/{id}";
 	
+	
+	// Book Module
+	
+	public static String post_book_url = base_url+"/api/v1/Books";
+	
+	public static String get_book_url = base_url+"/api/v1/Books/{id}";
+	
+	public static String update_book_url = base_url+"/api/v1/Books/{id}";
+	
+	public static String delete_book_url = base_url+"/api/v1/Books/{id}";
 
 }
