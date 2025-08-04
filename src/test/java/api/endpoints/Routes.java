@@ -27,4 +27,13 @@ public class Routes {
 	
 	public static String delete_book_url = base_url+"/api/v1/Books/{id}";
 
+	
+	// Author Module
+	public static String post_author_url = base_url+"/api/v1/Authors";
+	
+	public static String get_author_url = base_url+"/api/v1/Authors/{id}";
+	
+	public static String update_author_url = base_url+"/api/v1/Authors/{id}";
+	
+	public static String delete_author_url = base_url+"/api/v1/Authors/{id}";
 }

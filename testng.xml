@@ -6,12 +6,16 @@
 </listeners>
   <test thread-count="5" name="BookTest">
     <classes>
-          <class name="api.test.UserTests"></class> 
-        <class name="api.test.UserTests2"></class> 
+         <!--    <class name="api.test.UserTests"></class> -->
+      <!--    <class name="api.test.UserTests2"></class> -->
      <!--   <class name="api.test.DDTests"></class> -->
-       <class name="api.test.BookTests"></class>
-       <class name="api.test.BookTests2"></class>
+      <!--   <class name="api.test.BookTests"></class> -->
+      <!--   <class name="api.test.BookTests2"></class> -->
    <!--   <class name="api.test.DDTestsBook"></class> --> 
+    <class name="api.test.AuthorTests"></class> 
+         <class name="api.test.AuthorTests2"></class> 
+          <class name="api.test.DDTestsAuthor"></class> 
+   
     </classes>
   </test> <!-- BookTest -->
 </suite> <!-- BookSuite -->

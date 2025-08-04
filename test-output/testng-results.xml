@@ -1,99 +1,109 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="16" passed="16" failed="0" skipped="0">
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-07-31T11:16:40 IST" name="BookSuite" finished-at="2025-07-31T11:16:55 IST" duration-ms="15769">
+  <suite started-at="2025-08-04T19:29:38 IST" name="BookSuite" finished-at="2025-08-04T19:29:55 IST" duration-ms="17084">
     <groups>
     </groups>
-    <test started-at="2025-07-31T11:16:40 IST" name="BookTest" finished-at="2025-07-31T11:16:55 IST" duration-ms="15769">
-      <class name="api.test.UserTests2">
-        <test-method is-config="true" signature="setup()[pri:0, instance:api.test.UserTests2@1fa121e2]" started-at="2025-07-31T11:16:48 IST" name="setup" finished-at="2025-07-31T11:16:48 IST" duration-ms="112" status="PASS">
+    <test started-at="2025-08-04T19:29:38 IST" name="BookTest" finished-at="2025-08-04T19:29:55 IST" duration-ms="17084">
+      <class name="api.test.AuthorTests2">
+        <test-method is-config="true" signature="setup()[pri:0, instance:api.test.AuthorTests2@179ece50]" started-at="2025-08-04T19:29:47 IST" name="setup" finished-at="2025-08-04T19:29:47 IST" duration-ms="104" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testPostUser()[pri:1, instance:api.test.UserTests2@1fa121e2]" started-at="2025-07-31T11:16:48 IST" name="testPostUser" finished-at="2025-07-31T11:16:49 IST" duration-ms="553" status="PASS">
+        <test-method signature="testPostAuthor()[pri:1, instance:api.test.AuthorTests2@179ece50]" started-at="2025-08-04T19:29:47 IST" name="testPostAuthor" finished-at="2025-08-04T19:29:47 IST" duration-ms="618" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testPostUser -->
-        <test-method signature="testGetUser()[pri:2, instance:api.test.UserTests2@1fa121e2]" started-at="2025-07-31T11:16:49 IST" name="testGetUser" finished-at="2025-07-31T11:16:49 IST" duration-ms="592" status="PASS">
+        </test-method> <!-- testPostAuthor -->
+        <test-method signature="testGetAuthor()[pri:2, instance:api.test.AuthorTests2@179ece50]" started-at="2025-08-04T19:29:47 IST" name="testGetAuthor" finished-at="2025-08-04T19:29:48 IST" duration-ms="618" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testGetUser -->
-        <test-method signature="testUpdateUser()[pri:3, instance:api.test.UserTests2@1fa121e2]" started-at="2025-07-31T11:16:49 IST" name="testUpdateUser" finished-at="2025-07-31T11:16:50 IST" duration-ms="583" status="PASS">
+        </test-method> <!-- testGetAuthor -->
+        <test-method signature="testUpdateAuthor()[pri:3, instance:api.test.AuthorTests2@179ece50]" started-at="2025-08-04T19:29:48 IST" name="testUpdateAuthor" finished-at="2025-08-04T19:29:49 IST" duration-ms="587" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testUpdateUser -->
-        <test-method signature="testDeleteUser()[pri:4, instance:api.test.UserTests2@1fa121e2]" started-at="2025-07-31T11:16:50 IST" name="testDeleteUser" finished-at="2025-07-31T11:16:51 IST" duration-ms="545" status="PASS">
+        </test-method> <!-- testUpdateAuthor -->
+        <test-method signature="testDeleteAuthor()[pri:4, instance:api.test.AuthorTests2@179ece50]" started-at="2025-08-04T19:29:49 IST" name="testDeleteAuthor" finished-at="2025-08-04T19:29:49 IST" duration-ms="597" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testDeleteUser -->
-      </class> <!-- api.test.UserTests2 -->
-      <class name="api.test.UserTests">
-        <test-method is-config="true" signature="setup()[pri:0, instance:api.test.UserTests@185a6e9]" started-at="2025-07-31T11:16:40 IST" name="setup" finished-at="2025-07-31T11:16:42 IST" duration-ms="1356" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="testPostUser()[pri:1, instance:api.test.UserTests@185a6e9]" started-at="2025-07-31T11:16:42 IST" name="testPostUser" finished-at="2025-07-31T11:16:46 IST" duration-ms="4579" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testPostUser -->
-        <test-method signature="testGetUser()[pri:2, instance:api.test.UserTests@185a6e9]" started-at="2025-07-31T11:16:46 IST" name="testGetUser" finished-at="2025-07-31T11:16:47 IST" duration-ms="620" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testGetUser -->
-        <test-method signature="testUpdateUser()[pri:3, instance:api.test.UserTests@185a6e9]" started-at="2025-07-31T11:16:47 IST" name="testUpdateUser" finished-at="2025-07-31T11:16:48 IST" duration-ms="633" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testUpdateUser -->
-        <test-method signature="testDeleteUser()[pri:4, instance:api.test.UserTests@185a6e9]" started-at="2025-07-31T11:16:48 IST" name="testDeleteUser" finished-at="2025-07-31T11:16:48 IST" duration-ms="581" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testDeleteUser -->
-      </class> <!-- api.test.UserTests -->
-      <class name="api.test.BookTests2">
-        <test-method is-config="true" signature="setup()[pri:0, instance:api.test.BookTests2@4116aac9]" started-at="2025-07-31T11:16:53 IST" name="setup" finished-at="2025-07-31T11:16:53 IST" duration-ms="64" status="PASS">
+        </test-method> <!-- testDeleteAuthor -->
+      </class> <!-- api.test.AuthorTests2 -->
+      <class name="api.test.AuthorTests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:api.test.AuthorTests@3eb738bb]" started-at="2025-08-04T19:29:38 IST" name="setup" finished-at="2025-08-04T19:29:40 IST" duration-ms="1522" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testPostBook()[pri:1, instance:api.test.BookTests2@4116aac9]" started-at="2025-07-31T11:16:53 IST" name="testPostBook" finished-at="2025-07-31T11:16:54 IST" duration-ms="542" status="PASS">
+        <test-method signature="testPostAuthor()[pri:1, instance:api.test.AuthorTests@3eb738bb]" started-at="2025-08-04T19:29:40 IST" name="testPostAuthor" finished-at="2025-08-04T19:29:45 IST" duration-ms="4673" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testPostBook -->
-        <test-method signature="testGetBook()[pri:2, instance:api.test.BookTests2@4116aac9]" started-at="2025-07-31T11:16:54 IST" name="testGetBook" finished-at="2025-07-31T11:16:54 IST" duration-ms="547" status="PASS">
+        </test-method> <!-- testPostAuthor -->
+        <test-method signature="testGetAuthor()[pri:2, instance:api.test.AuthorTests@3eb738bb]" started-at="2025-08-04T19:29:45 IST" name="testGetAuthor" finished-at="2025-08-04T19:29:45 IST" duration-ms="651" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testGetBook -->
-        <test-method signature="testUpdateBook()[pri:3, instance:api.test.BookTests2@4116aac9]" started-at="2025-07-31T11:16:54 IST" name="testUpdateBook" finished-at="2025-07-31T11:16:55 IST" duration-ms="569" status="PASS">
+        </test-method> <!-- testGetAuthor -->
+        <test-method signature="testUpdateAuthor()[pri:3, instance:api.test.AuthorTests@3eb738bb]" started-at="2025-08-04T19:29:45 IST" name="testUpdateAuthor" finished-at="2025-08-04T19:29:46 IST" duration-ms="587" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testUpdateBook -->
-        <test-method signature="testDeleteBook()[pri:4, instance:api.test.BookTests2@4116aac9]" started-at="2025-07-31T11:16:55 IST" name="testDeleteBook" finished-at="2025-07-31T11:16:55 IST" duration-ms="552" status="PASS">
+        </test-method> <!-- testUpdateAuthor -->
+        <test-method signature="testDeleteAuthor()[pri:4, instance:api.test.AuthorTests@3eb738bb]" started-at="2025-08-04T19:29:46 IST" name="testDeleteAuthor" finished-at="2025-08-04T19:29:47 IST" duration-ms="591" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testDeleteBook -->
-      </class> <!-- api.test.BookTests2 -->
-      <class name="api.test.BookTests">
-        <test-method is-config="true" signature="setup()[pri:0, instance:api.test.BookTests@7eac9008]" started-at="2025-07-31T11:16:51 IST" name="setup" finished-at="2025-07-31T11:16:51 IST" duration-ms="76" status="PASS">
+        </test-method> <!-- testDeleteAuthor -->
+      </class> <!-- api.test.AuthorTests -->
+      <class name="api.test.DDTestsAuthor">
+        <test-method signature="testAuthorFlow(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:api.test.DDTestsAuthor@3b0090a4]" started-at="2025-08-04T19:29:51 IST" name="testAuthorFlow" data-provider="authorData" finished-at="2025-08-04T19:29:53 IST" duration-ms="2199" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[101.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[John]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Smith]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="testPostBook()[pri:1, instance:api.test.BookTests@7eac9008]" started-at="2025-07-31T11:16:51 IST" name="testPostBook" finished-at="2025-07-31T11:16:51 IST" duration-ms="586" status="PASS">
+        </test-method> <!-- testAuthorFlow -->
+        <test-method signature="testAuthorFlow(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:api.test.DDTestsAuthor@3b0090a4]" started-at="2025-08-04T19:29:53 IST" name="testAuthorFlow" data-provider="authorData" finished-at="2025-08-04T19:29:55 IST" duration-ms="2163" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[102.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Jane]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Doe]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testPostBook -->
-        <test-method signature="testGetBook()[pri:2, instance:api.test.BookTests@7eac9008]" started-at="2025-07-31T11:16:51 IST" name="testGetBook" finished-at="2025-07-31T11:16:52 IST" duration-ms="554" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testGetBook -->
-        <test-method signature="testUpdateBook()[pri:3, instance:api.test.BookTests@7eac9008]" started-at="2025-07-31T11:16:52 IST" name="testUpdateBook" finished-at="2025-07-31T11:16:52 IST" duration-ms="589" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testUpdateBook -->
-        <test-method signature="testDeleteBook()[pri:4, instance:api.test.BookTests@7eac9008]" started-at="2025-07-31T11:16:52 IST" name="testDeleteBook" finished-at="2025-07-31T11:16:53 IST" duration-ms="590" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testDeleteBook -->
-      </class> <!-- api.test.BookTests -->
+        </test-method> <!-- testAuthorFlow -->
+      </class> <!-- api.test.DDTestsAuthor -->
     </test> <!-- BookTest -->
   </suite> <!-- BookSuite -->
 </testng-results>

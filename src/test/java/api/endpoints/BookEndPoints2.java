@@ -19,29 +19,33 @@ public class BookEndPoints2 {
 	
 	public static Response createBook(Book payload) {
 		
+		String post_book_url = getURL().getString("post_book_url");
+		
 		Response response = given()
 				.contentType(ContentType.JSON)
 				.accept("*/*")
 				.body(payload)
 				
 				.when()
-				.post(Routes.post_book_url);
+				.post(post_book_url);
 		
 		return response;
 		
 	}
 	
 	public static Response readBook(int id) {
+		String get_book_url = getURL().getString("get_book_url");
 		Response response = given()
 				.pathParam("id", id)
 				
 				.when()
-				.get(Routes.get_book_url);
+				.get(get_book_url);
 		
 		return response;
 	}
 	
 	public static Response updateBook(int id, Book payload) {
+		String update_book_url = getURL().getString("update_book_url");
 		Response response = given()
 				.contentType(ContentType.JSON)
 				.accept("*/*")
@@ -49,17 +53,18 @@ public class BookEndPoints2 {
 				.body(payload)
 				
 				.when()
-				 .put(Routes.update_book_url);
+				 .put(update_book_url);
 		
 		return response;
 	}
 	
 	public static Response deleteBook(int id) {
+		String delete_book_url = getURL().getString("delete_book_url");
 		Response response = given()
 				.pathParam("id", id)
 				
 				.when()
-				.delete(Routes.delete_book_url);
+				.delete(delete_book_url);
 		
 		return response;
 	}

@@ -6,11 +6,11 @@
   </listeners>
   <test thread-count="5" name="BookTest(failed)">
     <classes>
-      <class name="api.test.DDTestsBook">
+      <class name="api.test.DDTestsAuthor">
         <methods>
-          <include name="fullCrudForEachBook" invocation-numbers="0 1"/>
+          <include name="testCreateAuthor" invocation-numbers="0 1"/>
         </methods>
-      </class> <!-- api.test.DDTestsBook -->
+      </class> <!-- api.test.DDTestsAuthor -->
     </classes>
   </test> <!-- BookTest(failed) -->
 </suite> <!-- Failed suite [BookSuite] -->
