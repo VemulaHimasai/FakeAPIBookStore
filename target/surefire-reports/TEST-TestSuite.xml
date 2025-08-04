@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="18.863" tests="10" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="25.968" tests="18" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21\bin"/>
-    <property name="sun.java.command" value="C:\Users\hp\AppData\Local\Temp\surefire3413910871717094929\surefirebooter-20250804193123735_3.jar C:\Users\hp\AppData\Local\Temp\surefire3413910871717094929 2025-08-04T19-31-23_424-jvmRun1 surefire-20250804193123735_1tmp surefire_0-20250804193123735_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\hp\AppData\Local\Temp\surefire8039680683009634695\surefirebooter-20250804193944561_3.jar C:\Users\hp\AppData\Local\Temp\surefire8039680683009634695 2025-08-04T19-39-44_247-jvmRun1 surefire-20250804193944561_1tmp surefire_0-20250804193944561_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\hp\eclipse-workspace\FakeRestAPIBookStore\target\test-classes;C:\Users\hp\eclipse-workspace\FakeRestAPIBookStore\target\classes;C:\Users\hp\.m2\repository\io\rest-assured\rest-assured\5.5.5\rest-assured-5.5.5.jar;C:\Users\hp\.m2\repository\org\apache\groovy\groovy\4.0.22\groovy-4.0.22.jar;C:\Users\hp\.m2\repository\org\apache\groovy\groovy-xml\4.0.22\groovy-xml-4.0.22.jar;C:\Users\hp\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\hp\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\hp\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\hp\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\hp\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\hp\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\hp\.m2\repository\io\rest-assured\xml-path\5.5.5\xml-path-5.5.5.jar;C:\Users\hp\.m2\repository\io\rest-assured\json-path\5.5.5\json-path-5.5.5.jar;C:\Users\hp\.m2\repository\org\apache\groovy\groovy-json\4.0.22\groovy-json-4.0.22.jar;C:\Users\hp\.m2\repository\io\rest-assured\rest-assured-common\5.5.5\rest-assured-common-5.5.5.jar;C:\Users\hp\.m2\repository\org\json\json\20250517\json-20250517.jar;C:\Users\hp\.m2\repository\org\testng\testng\7.11.0\testng-7.11.0.jar;C:\Users\hp\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\hp\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\hp\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\hp\.m2\repository\com\github\scribejava\scribejava-apis\8.3.3\scribejava-apis-8.3.3.jar;C:\Users\hp\.m2\repository\com\github\scribejava\scribejava-core\8.3.3\scribejava-core-8.3.3.jar;C:\Users\hp\.m2\repository\com\github\scribejava\scribejava-java8\8.3.3\scribejava-java8-8.3.3.jar;C:\Users\hp\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.14.0\jackson-databind-2.14.0.jar;C:\Users\hp\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.14.0\jackson-annotations-2.14.0.jar;C:\Users\hp\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.14.0\jackson-core-2.14.0.jar;C:\Users\hp\.m2\repository\io\rest-assured\json-schema-validator\5.5.5\json-schema-validator-5.5.5.jar;C:\Users\hp\.m2\repository\com\github\java-json-tools\json-schema-validator\2.2.14\json-schema-validator-2.2.14.jar;C:\Users\hp\.m2\repository\com\github\java-json-tools\jackson-coreutils-equivalence\1.0\jackson-coreutils-equivalence-1.0.jar;C:\Users\hp\.m2\repository\com\github\java-json-tools\jackson-coreutils\2.0\jackson-coreutils-2.0.jar;C:\Users\hp\.m2\repository\com\github\java-json-tools\msg-simple\1.2\msg-simple-1.2.jar;C:\Users\hp\.m2\repository\com\github\java-json-tools\btf\1.3\btf-1.3.jar;C:\Users\hp\.m2\repository\com\github\java-json-tools\json-schema-core\1.2.14\json-schema-core-1.2.14.jar;C:\Users\hp\.m2\repository\com\github\java-json-tools\uri-template\0.10\uri-template-0.10.jar;C:\Users\hp\.m2\repository\org\mozilla\rhino\1.7.7.2\rhino-1.7.7.2.jar;C:\Users\hp\.m2\repository\com\sun\mail\mailapi\1.6.2\mailapi-1.6.2.jar;C:\Users\hp\.m2\repository\joda-time\joda-time\2.10.5\joda-time-2.10.5.jar;C:\Users\hp\.m2\repository\com\googlecode\libphonenumber\libphonenumber\8.11.1\libphonenumber-8.11.1.jar;C:\Users\hp\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\hp\.m2\repository\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar;C:\Users\hp\.m2\repository\com\google\guava\guava\33.2.1-jre\guava-33.2.1-jre.jar;C:\Users\hp\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\hp\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\hp\.m2\repository\org\checkerframework\checker-qual\3.42.0\checker-qual-3.42.0.jar;C:\Users\hp\.m2\repository\com\google\errorprone\error_prone_annotations\2.26.1\error_prone_annotations-2.26.1.jar;C:\Users\hp\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\hp\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\hp\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\hp\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\hp\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\hp\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\hp\.m2\repository\com\aventstack\extentreports\5.1.2\extentreports-5.1.2.jar;C:\Users\hp\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\hp\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\hp\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\hp\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\hp\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\hp\.m2\repository\org\apache\poi\poi\5.4.1\poi-5.4.1.jar;C:\Users\hp\.m2\repository\commons-codec\commons-codec\1.18.0\commons-codec-1.18.0.jar;C:\Users\hp\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\hp\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\hp\.m2\repository\commons-io\commons-io\2.18.0\commons-io-2.18.0.jar;C:\Users\hp\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\hp\.m2\repository\org\apache\poi\poi-ooxml\5.4.1\poi-ooxml-5.4.1.jar;C:\Users\hp\.m2\repository\org\apache\poi\poi-ooxml-lite\5.4.1\poi-ooxml-lite-5.4.1.jar;C:\Users\hp\.m2\repository\org\apache\xmlbeans\xmlbeans\5.3.0\xmlbeans-5.3.0.jar;C:\Users\hp\.m2\repository\org\apache\commons\commons-compress\1.27.1\commons-compress-1.27.1.jar;C:\Users\hp\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;C:\Users\hp\.m2\repository\org\apache\logging\log4j\log4j-api\2.17.2\log4j-api-2.17.2.jar;C:\Users\hp\.m2\repository\org\apache\logging\log4j\log4j-core\2.17.2\log4j-core-2.17.2.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\hp\AppData\Local\Temp\surefire3413910871717094929\surefirebooter-20250804193123735_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\hp\AppData\Local\Temp\surefire8039680683009634695\surefirebooter-20250804193944561_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="21.0.5+9-LTS-239"/>
@@ -58,33 +58,173 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="testPostAuthor" classname="api.test.AuthorTests" time="4.72">
-    <system-out><![CDATA[19:31:27 INFO  ************Creating Author****************
+  <testcase name="testPostBook" classname="api.test.BookTests" time="7.651">
+    <system-out><![CDATA[19:39:48 INFO  *********Creating Book*********
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8; v=1.0
-Date: Mon, 04 Aug 2025 14:01:30 GMT
+Date: Mon, 04 Aug 2025 14:09:55 GMT
 Server: Kestrel
 Transfer-Encoding: chunked
 api-supported-versions: 1.0
 
 {
     "id": 3,
-    "idBook": 2,
-    "firstName": "Vena",
-    "lastName": "Greenholt"
+    "title": "Eyeless in Gaza",
+    "description": "Ipsam vel ut deleniti rerum eaque animi architecto.",
+    "pageCount": 496,
+    "excerpt": "Excerpt of Eyeless in Gaza",
+    "publishDate": "2025-08-04T19:39:47.3217853"
 }
-19:31:32 INFO  ***************Author Created***************
+19:39:55 INFO  *********Book is created **********
 ]]></system-out>
     <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
 SLF4J(W): Defaulting to no-operation (NOP) logger implementation
 SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
 ]]></system-err>
   </testcase>
-  <testcase name="testGetAuthor" classname="api.test.AuthorTests" time="0.641">
-    <system-out><![CDATA[19:31:32 INFO  **************Reading Author Info**************
+  <testcase name="testGetBook" classname="api.test.BookTests" time="0.631">
+    <system-out><![CDATA[19:39:55 INFO  *********Reading Book Info***************
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8; v=1.0
-Date: Mon, 04 Aug 2025 14:01:31 GMT
+Date: Mon, 04 Aug 2025 14:09:55 GMT
+Server: Kestrel
+Transfer-Encoding: chunked
+api-supported-versions: 1.0
+
+{
+    "id": 3,
+    "title": "Book 3",
+    "description": "Lorem lorem lorem. Lorem lorem lorem. Lorem lorem lorem.\n",
+    "pageCount": 300,
+    "excerpt": "Lorem lorem lorem. Lorem lorem lorem. Lorem lorem lorem.\nLorem lorem lorem. Lorem lorem lorem. Lorem lorem lorem.\nLorem lorem lorem. Lorem lorem lorem. Lorem lorem lorem.\nLorem lorem lorem. Lorem lorem lorem. Lorem lorem lorem.\nLorem lorem lorem. Lorem lorem lorem. Lorem lorem lorem.\n",
+    "publishDate": "2025-08-01T14:09:55.8643275+00:00"
+}
+19:39:56 INFO  *******Book is displayed*******
+]]></system-out>
+  </testcase>
+  <testcase name="testUpdateBook" classname="api.test.BookTests" time="0.617">
+    <system-out><![CDATA[19:39:56 INFO  *******Updating Book ***********
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8; v=1.0
+Date: Mon, 04 Aug 2025 14:09:56 GMT
+Server: Kestrel
+Transfer-Encoding: chunked
+api-supported-versions: 1.0
+
+{
+    "id": 3,
+    "title": "Rosemary Sutcliff",
+    "description": "Qui nihil quisquam libero id soluta.",
+    "pageCount": 354,
+    "excerpt": "Updated excerpt for Rosemary Sutcliff",
+    "publishDate": "2025-08-04T19:39:56.5584682"
+}
+19:39:57 INFO  **********Book Updated***********
+]]></system-out>
+  </testcase>
+  <testcase name="testDeleteBook" classname="api.test.BookTests" time="0.592">
+    <system-out><![CDATA[19:39:57 INFO  **********Deleting Book***********
+HTTP/1.1 200 OK
+Content-Length: 0
+Date: Mon, 04 Aug 2025 14:09:56 GMT
+Server: Kestrel
+api-supported-versions: 1.0
+19:39:57 INFO  ************Book Deleted***********
+]]></system-out>
+  </testcase>
+  <testcase name="testPostBook" classname="api.test.BookTests2" time="0.582">
+    <system-out><![CDATA[19:39:57 INFO  *********Creating Book*********
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8; v=1.0
+Date: Mon, 04 Aug 2025 14:09:57 GMT
+Server: Kestrel
+Transfer-Encoding: chunked
+api-supported-versions: 1.0
+
+{
+    "id": 3,
+    "title": "Now Sleeps the Crimson Petal",
+    "description": "Molestias qui et molestias necessitatibus.",
+    "pageCount": 239,
+    "excerpt": "Excerpt of Now Sleeps the Crimson Petal",
+    "publishDate": "2025-08-04T19:39:57.7873869"
+}
+19:39:58 INFO  *********Book is created **********
+]]></system-out>
+  </testcase>
+  <testcase name="testGetBook" classname="api.test.BookTests2" time="0.578">
+    <system-out><![CDATA[19:39:58 INFO  *********Reading Book Info***************
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8; v=1.0
+Date: Mon, 04 Aug 2025 14:09:58 GMT
+Server: Kestrel
+Transfer-Encoding: chunked
+api-supported-versions: 1.0
+
+{
+    "id": 3,
+    "title": "Book 3",
+    "description": "Lorem lorem lorem. Lorem lorem lorem. Lorem lorem lorem.\n",
+    "pageCount": 300,
+    "excerpt": "Lorem lorem lorem. Lorem lorem lorem. Lorem lorem lorem.\nLorem lorem lorem. Lorem lorem lorem. Lorem lorem lorem.\nLorem lorem lorem. Lorem lorem lorem. Lorem lorem lorem.\nLorem lorem lorem. Lorem lorem lorem. Lorem lorem lorem.\nLorem lorem lorem. Lorem lorem lorem. Lorem lorem lorem.\n",
+    "publishDate": "2025-08-01T14:09:58.2316788+00:00"
+}
+19:39:58 INFO  *******Book is displayed*******
+]]></system-out>
+  </testcase>
+  <testcase name="testUpdateBook" classname="api.test.BookTests2" time="0.598">
+    <system-out><![CDATA[19:39:58 INFO  *******Updating Book ***********
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8; v=1.0
+Date: Mon, 04 Aug 2025 14:09:58 GMT
+Server: Kestrel
+Transfer-Encoding: chunked
+api-supported-versions: 1.0
+
+{
+    "id": 3,
+    "title": "The Mermaids Singing",
+    "description": "Consequatur id vero cum quibusdam saepe voluptatem.",
+    "pageCount": 312,
+    "excerpt": "Updated excerpt for The Mermaids Singing",
+    "publishDate": "2025-08-04T19:39:58.9265888"
+}
+19:39:59 INFO  **********Book Updated***********
+]]></system-out>
+  </testcase>
+  <testcase name="testDeleteBook" classname="api.test.BookTests2" time="0.762">
+    <system-out><![CDATA[19:39:59 INFO  **********Deleting Book***********
+HTTP/1.1 200 OK
+Content-Length: 0
+Date: Mon, 04 Aug 2025 14:09:59 GMT
+Server: Kestrel
+api-supported-versions: 1.0
+19:40:00 INFO  ************Book Deleted***********
+]]></system-out>
+  </testcase>
+  <testcase name="testPostAuthor" classname="api.test.AuthorTests" time="0.539">
+    <system-out><![CDATA[19:40:00 INFO  ************Creating Author****************
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8; v=1.0
+Date: Mon, 04 Aug 2025 14:10:00 GMT
+Server: Kestrel
+Transfer-Encoding: chunked
+api-supported-versions: 1.0
+
+{
+    "id": 3,
+    "idBook": 2,
+    "firstName": "Cheree",
+    "lastName": "Schuppe"
+}
+19:40:00 INFO  ***************Author Created***************
+]]></system-out>
+  </testcase>
+  <testcase name="testGetAuthor" classname="api.test.AuthorTests" time="0.562">
+    <system-out><![CDATA[19:40:00 INFO  **************Reading Author Info**************
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8; v=1.0
+Date: Mon, 04 Aug 2025 14:10:00 GMT
 Server: Kestrel
 Transfer-Encoding: chunked
 api-supported-versions: 1.0
@@ -95,14 +235,14 @@ api-supported-versions: 1.0
     "firstName": "First Name 3",
     "lastName": "Last Name 3"
 }
-19:31:32 INFO  ***********Author is displayed************
+19:40:01 INFO  ***********Author is displayed************
 ]]></system-out>
   </testcase>
-  <testcase name="testUpdateAuthor" classname="api.test.AuthorTests" time="1.263">
-    <system-out><![CDATA[19:31:32 INFO  **************Updating Author*************
+  <testcase name="testUpdateAuthor" classname="api.test.AuthorTests" time="0.583">
+    <system-out><![CDATA[19:40:01 INFO  **************Updating Author*************
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8; v=1.0
-Date: Mon, 04 Aug 2025 14:01:32 GMT
+Date: Mon, 04 Aug 2025 14:10:01 GMT
 Server: Kestrel
 Transfer-Encoding: chunked
 api-supported-versions: 1.0
@@ -110,27 +250,27 @@ api-supported-versions: 1.0
 {
     "id": 3,
     "idBook": 2,
-    "firstName": "Updated_Cedrick",
-    "lastName": "Greenholt"
+    "firstName": "Updated_Jefferey",
+    "lastName": "Schuppe"
 }
-19:31:34 INFO  ************ Author Updated ************
+19:40:01 INFO  ************ Author Updated ************
 ]]></system-out>
   </testcase>
-  <testcase name="testDeleteAuthor" classname="api.test.AuthorTests" time="0.502">
-    <system-out><![CDATA[19:31:34 INFO  ************ Deleting Author ************
+  <testcase name="testDeleteAuthor" classname="api.test.AuthorTests" time="0.579">
+    <system-out><![CDATA[19:40:01 INFO  ************ Deleting Author ************
 HTTP/1.1 200 OK
 Content-Length: 0
-Date: Mon, 04 Aug 2025 14:01:33 GMT
+Date: Mon, 04 Aug 2025 14:10:01 GMT
 Server: Kestrel
 api-supported-versions: 1.0
-19:31:34 INFO  ************ Author Deleted ************
+19:40:02 INFO  ************ Author Deleted ************
 ]]></system-out>
   </testcase>
-  <testcase name="testPostAuthor" classname="api.test.AuthorTests2" time="0.622">
-    <system-out><![CDATA[19:31:34 INFO  ************Creating Author****************
+  <testcase name="testPostAuthor" classname="api.test.AuthorTests2" time="0.658">
+    <system-out><![CDATA[19:40:02 INFO  ************Creating Author****************
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8; v=1.0
-Date: Mon, 04 Aug 2025 14:01:33 GMT
+Date: Mon, 04 Aug 2025 14:10:02 GMT
 Server: Kestrel
 Transfer-Encoding: chunked
 api-supported-versions: 1.0
@@ -138,17 +278,17 @@ api-supported-versions: 1.0
 {
     "id": 3,
     "idBook": 2,
-    "firstName": "Conrad",
-    "lastName": "Klein"
+    "firstName": "Tim",
+    "lastName": "Gerlach"
 }
-19:31:35 INFO  ***************Author Created***************
+19:40:03 INFO  ***************Author Created***************
 ]]></system-out>
   </testcase>
   <testcase name="testGetAuthor" classname="api.test.AuthorTests2" time="0.582">
-    <system-out><![CDATA[19:31:35 INFO  **************Reading Author Info**************
+    <system-out><![CDATA[19:40:03 INFO  **************Reading Author Info**************
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8; v=1.0
-Date: Mon, 04 Aug 2025 14:01:34 GMT
+Date: Mon, 04 Aug 2025 14:10:03 GMT
 Server: Kestrel
 Transfer-Encoding: chunked
 api-supported-versions: 1.0
@@ -159,14 +299,14 @@ api-supported-versions: 1.0
     "firstName": "First Name 3",
     "lastName": "Last Name 3"
 }
-19:31:35 INFO  ***********Author is displayed************
+19:40:03 INFO  ***********Author is displayed************
 ]]></system-out>
   </testcase>
-  <testcase name="testUpdateAuthor" classname="api.test.AuthorTests2" time="0.521">
-    <system-out><![CDATA[19:31:35 INFO  **************Updating Author*************
+  <testcase name="testUpdateAuthor" classname="api.test.AuthorTests2" time="0.527">
+    <system-out><![CDATA[19:40:03 INFO  **************Updating Author*************
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8; v=1.0
-Date: Mon, 04 Aug 2025 14:01:35 GMT
+Date: Mon, 04 Aug 2025 14:10:03 GMT
 Server: Kestrel
 Transfer-Encoding: chunked
 api-supported-versions: 1.0
@@ -174,23 +314,23 @@ api-supported-versions: 1.0
 {
     "id": 3,
     "idBook": 2,
-    "firstName": "Updated_Gail",
-    "lastName": "Klein"
+    "firstName": "Updated_Shawn",
+    "lastName": "Gerlach"
 }
-19:31:36 INFO  ************ Author Updated ************
+19:40:04 INFO  ************ Author Updated ************
 ]]></system-out>
   </testcase>
-  <testcase name="testDeleteAuthor" classname="api.test.AuthorTests2" time="0.575">
-    <system-out><![CDATA[19:31:36 INFO  ************ Deleting Author ************
+  <testcase name="testDeleteAuthor" classname="api.test.AuthorTests2" time="0.542">
+    <system-out><![CDATA[19:40:04 INFO  ************ Deleting Author ************
 HTTP/1.1 200 OK
 Content-Length: 0
-Date: Mon, 04 Aug 2025 14:01:35 GMT
+Date: Mon, 04 Aug 2025 14:10:04 GMT
 Server: Kestrel
 api-supported-versions: 1.0
-19:31:37 INFO  ************ Author Deleted ************
+19:40:04 INFO  ************ Author Deleted ************
 ]]></system-out>
   </testcase>
-  <testcase name="testAuthorFlow[101.0, 2.0, John, Smith](1)" classname="api.test.DDTestsAuthor" time="2.346">
+  <testcase name="testAuthorFlow[101.0, 2.0, John, Smith](1)" classname="api.test.DDTestsAuthor" time="2.16">
     <system-out><![CDATA[{
     "id": 101,
     "idBook": 2,
@@ -199,7 +339,7 @@ api-supported-versions: 1.0
 }
 {
     "id": 101,
-    "idBook": 38,
+    "idBook": 33,
     "firstName": "First Name 101",
     "lastName": "Last Name 101"
 }
@@ -212,7 +352,7 @@ api-supported-versions: 1.0
 
 ]]></system-out>
   </testcase>
-  <testcase name="testAuthorFlow[102.0, 3.0, Jane, Doe](2)" classname="api.test.DDTestsAuthor" time="2.115">
+  <testcase name="testAuthorFlow[102.0, 3.0, Jane, Doe](2)" classname="api.test.DDTestsAuthor" time="2.147">
     <system-out><![CDATA[{
     "id": 102,
     "idBook": 3,
