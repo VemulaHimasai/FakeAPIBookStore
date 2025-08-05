@@ -1,16 +1,32 @@
-2025-08-05 19:54:05 [main] INFO  api.test.CoverPhotoTests - *******creating CoverPhoto***********
-2025-08-05 19:54:10 [main] INFO  api.test.CoverPhotoTests - **********CoverPhoto created**********
-2025-08-05 19:54:10 [main] INFO  api.test.CoverPhotoTests - **********reading CoverPhoto***********
-2025-08-05 19:54:11 [main] INFO  api.test.CoverPhotoTests - ********CoverPhoto is displayed***********
-2025-08-05 19:54:11 [main] INFO  api.test.CoverPhotoTests - *********updating CoverPhoto**********
-2025-08-05 19:54:11 [main] INFO  api.test.CoverPhotoTests - *********CoverPhoto updated***********
-2025-08-05 19:54:11 [main] INFO  api.test.CoverPhotoTests - ***********deleting CoverPhoto***********
-2025-08-05 19:54:12 [main] INFO  api.test.CoverPhotoTests - **********CoverPhoto deleted*************
-2025-08-05 19:54:12 [main] INFO  api.test.CoverPhotoTests2 - *******creating/Updating CoverPhoto (using PUT) ***********
-2025-08-05 19:54:12 [main] INFO  api.test.CoverPhotoTests2 - **********CoverPhoto created/updated**********
-2025-08-05 19:54:12 [main] INFO  api.test.CoverPhotoTests2 - **********reading CoverPhoto***********
-2025-08-05 19:54:13 [main] INFO  api.test.CoverPhotoTests2 - ********CoverPhoto is displayed***********
-2025-08-05 19:54:13 [main] INFO  api.test.CoverPhotoTests2 - *********updating CoverPhoto**********
-2025-08-05 19:54:14 [main] INFO  api.test.CoverPhotoTests2 - *********CoverPhoto updated***********
-2025-08-05 19:54:14 [main] INFO  api.test.CoverPhotoTests2 - ***********deleting CoverPhoto***********
-2025-08-05 19:54:14 [main] INFO  api.test.CoverPhotoTests2 - **********CoverPhoto deleted*************
+2025-08-05 20:00:59 [main] INFO  api.test.AuthorTests - ************Creating Author****************
+2025-08-05 20:01:05 [main] INFO  api.test.AuthorTests - ***************Author Created***************
+2025-08-05 20:01:05 [main] INFO  api.test.AuthorTests - **************Reading Author Info**************
+2025-08-05 20:01:06 [main] INFO  api.test.AuthorTests - ***********Author is displayed************
+2025-08-05 20:01:06 [main] INFO  api.test.AuthorTests - **************Updating Author*************
+2025-08-05 20:01:07 [main] INFO  api.test.AuthorTests - ************ Author Updated ************
+2025-08-05 20:01:07 [main] INFO  api.test.AuthorTests - ************ Deleting Author ************
+2025-08-05 20:01:07 [main] INFO  api.test.AuthorTests - ************ Author Deleted ************
+2025-08-05 20:01:07 [main] INFO  api.test.AuthorTests2 - ************Creating Author****************
+2025-08-05 20:01:08 [main] INFO  api.test.AuthorTests2 - ***************Author Created***************
+2025-08-05 20:01:08 [main] INFO  api.test.AuthorTests2 - **************Reading Author Info**************
+2025-08-05 20:01:08 [main] INFO  api.test.AuthorTests2 - ***********Author is displayed************
+2025-08-05 20:01:08 [main] INFO  api.test.AuthorTests2 - **************Updating Author*************
+2025-08-05 20:01:09 [main] INFO  api.test.AuthorTests2 - ************ Author Updated ************
+2025-08-05 20:01:09 [main] INFO  api.test.AuthorTests2 - ************ Deleting Author ************
+2025-08-05 20:01:09 [main] INFO  api.test.AuthorTests2 - ************ Author Deleted ************
+2025-08-05 20:01:15 [main] INFO  api.test.CoverPhotoTests - *******creating CoverPhoto***********
+2025-08-05 20:01:15 [main] INFO  api.test.CoverPhotoTests - **********CoverPhoto created**********
+2025-08-05 20:01:15 [main] INFO  api.test.CoverPhotoTests - **********reading CoverPhoto***********
+2025-08-05 20:01:16 [main] INFO  api.test.CoverPhotoTests - ********CoverPhoto is displayed***********
+2025-08-05 20:01:16 [main] INFO  api.test.CoverPhotoTests - *********updating CoverPhoto**********
+2025-08-05 20:01:17 [main] INFO  api.test.CoverPhotoTests - *********CoverPhoto updated***********
+2025-08-05 20:01:17 [main] INFO  api.test.CoverPhotoTests - ***********deleting CoverPhoto***********
+2025-08-05 20:01:17 [main] INFO  api.test.CoverPhotoTests - **********CoverPhoto deleted*************
+2025-08-05 20:01:17 [main] INFO  api.test.CoverPhotoTests2 - *******creating/Updating CoverPhoto (using PUT) ***********
+2025-08-05 20:01:18 [main] INFO  api.test.CoverPhotoTests2 - **********CoverPhoto created/updated**********
+2025-08-05 20:01:18 [main] INFO  api.test.CoverPhotoTests2 - **********reading CoverPhoto***********
+2025-08-05 20:01:18 [main] INFO  api.test.CoverPhotoTests2 - ********CoverPhoto is displayed***********
+2025-08-05 20:01:18 [main] INFO  api.test.CoverPhotoTests2 - *********updating CoverPhoto**********
+2025-08-05 20:01:19 [main] INFO  api.test.CoverPhotoTests2 - *********CoverPhoto updated***********
+2025-08-05 20:01:19 [main] INFO  api.test.CoverPhotoTests2 - ***********deleting CoverPhoto***********
+2025-08-05 20:01:19 [main] INFO  api.test.CoverPhotoTests2 - **********CoverPhoto deleted*************
