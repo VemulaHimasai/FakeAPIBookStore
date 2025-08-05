@@ -6,11 +6,12 @@
   </listeners>
   <test thread-count="5" name="BookTest(failed)">
     <classes>
-      <class name="api.test.DDTests">
+      <class name="api.test.CoverPhotoTests2">
         <methods>
-          <include name="testUserCRUDFlow" invocation-numbers="0 1 2"/>
+          <include name="setup"/>
+          <include name="testPostCoverPhoto"/>
         </methods>
-      </class> <!-- api.test.DDTests -->
+      </class> <!-- api.test.CoverPhotoTests2 -->
     </classes>
   </test> <!-- BookTest(failed) -->
 </suite> <!-- Failed suite [BookSuite] -->

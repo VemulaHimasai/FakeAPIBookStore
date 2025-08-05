@@ -1,48 +1,16 @@
-2025-08-04 22:13:19 [main] INFO  api.test.UserTests - *********Creating User*********
-2025-08-04 22:13:23 [main] INFO  api.test.UserTests - *********User is created **********
-2025-08-04 22:13:23 [main] INFO  api.test.UserTests - *********Reading User Info***************
-2025-08-04 22:13:24 [main] INFO  api.test.UserTests - *******User is displayed*******
-2025-08-04 22:13:24 [main] INFO  api.test.UserTests - *******Updating user ***********
-2025-08-04 22:13:24 [main] INFO  api.test.UserTests - **********User Updated***********
-2025-08-04 22:13:24 [main] INFO  api.test.UserTests - **********Deleting User***********
-2025-08-04 22:13:25 [main] INFO  api.test.UserTests - ************User Deleted***********
-2025-08-04 22:13:25 [main] INFO  api.test.UserTests2 - *********Creating User*********
-2025-08-04 22:13:25 [main] INFO  api.test.UserTests2 - *********User is created **********
-2025-08-04 22:13:25 [main] INFO  api.test.UserTests2 - *********Reading User Info***************
-2025-08-04 22:13:26 [main] INFO  api.test.UserTests2 - *******User is displayed*******
-2025-08-04 22:13:26 [main] INFO  api.test.UserTests2 - *******Updating user ***********
-2025-08-04 22:13:26 [main] INFO  api.test.UserTests2 - **********User Updated***********
-2025-08-04 22:13:26 [main] INFO  api.test.UserTests2 - **********Deleting User***********
-2025-08-04 22:13:27 [main] INFO  api.test.UserTests2 - ************User Deleted***********
-2025-08-04 22:13:27 [main] INFO  api.test.BookTests - *********Creating Book*********
-2025-08-04 22:13:28 [main] INFO  api.test.BookTests - *********Book is created **********
-2025-08-04 22:13:28 [main] INFO  api.test.BookTests - *********Reading Book Info***************
-2025-08-04 22:13:28 [main] INFO  api.test.BookTests - *******Book is displayed*******
-2025-08-04 22:13:28 [main] INFO  api.test.BookTests - *******Updating Book ***********
-2025-08-04 22:13:29 [main] INFO  api.test.BookTests - **********Book Updated***********
-2025-08-04 22:13:29 [main] INFO  api.test.BookTests - **********Deleting Book***********
-2025-08-04 22:13:29 [main] INFO  api.test.BookTests - ************Book Deleted***********
-2025-08-04 22:13:29 [main] INFO  api.test.BookTests2 - *********Creating Book*********
-2025-08-04 22:13:30 [main] INFO  api.test.BookTests2 - *********Book is created **********
-2025-08-04 22:13:30 [main] INFO  api.test.BookTests2 - *********Reading Book Info***************
-2025-08-04 22:13:30 [main] INFO  api.test.BookTests2 - *******Book is displayed*******
-2025-08-04 22:13:30 [main] INFO  api.test.BookTests2 - *******Updating Book ***********
-2025-08-04 22:13:31 [main] INFO  api.test.BookTests2 - **********Book Updated***********
-2025-08-04 22:13:31 [main] INFO  api.test.BookTests2 - **********Deleting Book***********
-2025-08-04 22:13:31 [main] INFO  api.test.BookTests2 - ************Book Deleted***********
-2025-08-04 22:13:31 [main] INFO  api.test.AuthorTests - ************Creating Author****************
-2025-08-04 22:13:32 [main] INFO  api.test.AuthorTests - ***************Author Created***************
-2025-08-04 22:13:32 [main] INFO  api.test.AuthorTests - **************Reading Author Info**************
-2025-08-04 22:13:32 [main] INFO  api.test.AuthorTests - ***********Author is displayed************
-2025-08-04 22:13:32 [main] INFO  api.test.AuthorTests - **************Updating Author*************
-2025-08-04 22:13:33 [main] INFO  api.test.AuthorTests - ************ Author Updated ************
-2025-08-04 22:13:33 [main] INFO  api.test.AuthorTests - ************ Deleting Author ************
-2025-08-04 22:13:33 [main] INFO  api.test.AuthorTests - ************ Author Deleted ************
-2025-08-04 22:13:33 [main] INFO  api.test.AuthorTests2 - ************Creating Author****************
-2025-08-04 22:13:34 [main] INFO  api.test.AuthorTests2 - ***************Author Created***************
-2025-08-04 22:13:34 [main] INFO  api.test.AuthorTests2 - **************Reading Author Info**************
-2025-08-04 22:13:35 [main] INFO  api.test.AuthorTests2 - ***********Author is displayed************
-2025-08-04 22:13:35 [main] INFO  api.test.AuthorTests2 - **************Updating Author*************
-2025-08-04 22:13:35 [main] INFO  api.test.AuthorTests2 - ************ Author Updated ************
-2025-08-04 22:13:35 [main] INFO  api.test.AuthorTests2 - ************ Deleting Author ************
-2025-08-04 22:13:36 [main] INFO  api.test.AuthorTests2 - ************ Author Deleted ************
+2025-08-05 19:54:05 [main] INFO  api.test.CoverPhotoTests - *******creating CoverPhoto***********
+2025-08-05 19:54:10 [main] INFO  api.test.CoverPhotoTests - **********CoverPhoto created**********
+2025-08-05 19:54:10 [main] INFO  api.test.CoverPhotoTests - **********reading CoverPhoto***********
+2025-08-05 19:54:11 [main] INFO  api.test.CoverPhotoTests - ********CoverPhoto is displayed***********
+2025-08-05 19:54:11 [main] INFO  api.test.CoverPhotoTests - *********updating CoverPhoto**********
+2025-08-05 19:54:11 [main] INFO  api.test.CoverPhotoTests - *********CoverPhoto updated***********
+2025-08-05 19:54:11 [main] INFO  api.test.CoverPhotoTests - ***********deleting CoverPhoto***********
+2025-08-05 19:54:12 [main] INFO  api.test.CoverPhotoTests - **********CoverPhoto deleted*************
+2025-08-05 19:54:12 [main] INFO  api.test.CoverPhotoTests2 - *******creating/Updating CoverPhoto (using PUT) ***********
+2025-08-05 19:54:12 [main] INFO  api.test.CoverPhotoTests2 - **********CoverPhoto created/updated**********
+2025-08-05 19:54:12 [main] INFO  api.test.CoverPhotoTests2 - **********reading CoverPhoto***********
+2025-08-05 19:54:13 [main] INFO  api.test.CoverPhotoTests2 - ********CoverPhoto is displayed***********
+2025-08-05 19:54:13 [main] INFO  api.test.CoverPhotoTests2 - *********updating CoverPhoto**********
+2025-08-05 19:54:14 [main] INFO  api.test.CoverPhotoTests2 - *********CoverPhoto updated***********
+2025-08-05 19:54:14 [main] INFO  api.test.CoverPhotoTests2 - ***********deleting CoverPhoto***********
+2025-08-05 19:54:14 [main] INFO  api.test.CoverPhotoTests2 - **********CoverPhoto deleted*************

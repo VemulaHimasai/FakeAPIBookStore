@@ -36,4 +36,15 @@ public class Routes {
 	public static String update_author_url = base_url+"/api/v1/Authors/{id}";
 	
 	public static String delete_author_url = base_url+"/api/v1/Authors/{id}";
+	
+	
+	//CoverPhoto Module
+	public static String post_cover_url = base_url+"/api/v1/CoverPhotos";
+	
+	public static String get_cover_url = base_url+"/api/v1/CoverPhotos/{id}";
+	
+	public static String update_cover_url = base_url+"/api/v1/CoverPhotos/{id}";
+	
+	public static String delete_cover_url=base_url+"/api/v1/CoverPhotos/{id}";
+	
 }
