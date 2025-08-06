@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="33.993" tests="38" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="37.08" tests="46" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21\bin"/>
-    <property name="sun.java.command" value="C:\Users\hp\AppData\Local\Temp\surefire16524074822096538309\surefirebooter-20250806100645770_3.jar C:\Users\hp\AppData\Local\Temp\surefire16524074822096538309 2025-08-06T10-06-45_361-jvmRun1 surefire-20250806100645770_1tmp surefire_0-20250806100645770_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\hp\AppData\Local\Temp\surefire13310603381682662113\surefirebooter-20250806101522816_3.jar C:\Users\hp\AppData\Local\Temp\surefire13310603381682662113 2025-08-06T10-15-22_390-jvmRun1 surefire-20250806101522816_1tmp surefire_0-20250806101522816_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\hp\eclipse-workspace\FakeRestAPIBookStore\target\test-classes;C:\Users\hp\eclipse-workspace\FakeRestAPIBookStore\target\classes;C:\Users\hp\.m2\repository\io\rest-assured\rest-assured\5.5.5\rest-assured-5.5.5.jar;C:\Users\hp\.m2\repository\org\apache\groovy\groovy\4.0.22\groovy-4.0.22.jar;C:\Users\hp\.m2\repository\org\apache\groovy\groovy-xml\4.0.22\groovy-xml-4.0.22.jar;C:\Users\hp\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\hp\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\hp\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\hp\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\hp\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\hp\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\hp\.m2\repository\io\rest-assured\xml-path\5.5.5\xml-path-5.5.5.jar;C:\Users\hp\.m2\repository\io\rest-assured\json-path\5.5.5\json-path-5.5.5.jar;C:\Users\hp\.m2\repository\org\apache\groovy\groovy-json\4.0.22\groovy-json-4.0.22.jar;C:\Users\hp\.m2\repository\io\rest-assured\rest-assured-common\5.5.5\rest-assured-common-5.5.5.jar;C:\Users\hp\.m2\repository\org\json\json\20250517\json-20250517.jar;C:\Users\hp\.m2\repository\org\testng\testng\7.11.0\testng-7.11.0.jar;C:\Users\hp\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\hp\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\hp\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\hp\.m2\repository\com\github\scribejava\scribejava-apis\8.3.3\scribejava-apis-8.3.3.jar;C:\Users\hp\.m2\repository\com\github\scribejava\scribejava-core\8.3.3\scribejava-core-8.3.3.jar;C:\Users\hp\.m2\repository\com\github\scribejava\scribejava-java8\8.3.3\scribejava-java8-8.3.3.jar;C:\Users\hp\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.14.0\jackson-databind-2.14.0.jar;C:\Users\hp\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.14.0\jackson-annotations-2.14.0.jar;C:\Users\hp\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.14.0\jackson-core-2.14.0.jar;C:\Users\hp\.m2\repository\io\rest-assured\json-schema-validator\5.5.5\json-schema-validator-5.5.5.jar;C:\Users\hp\.m2\repository\com\github\java-json-tools\json-schema-validator\2.2.14\json-schema-validator-2.2.14.jar;C:\Users\hp\.m2\repository\com\github\java-json-tools\jackson-coreutils-equivalence\1.0\jackson-coreutils-equivalence-1.0.jar;C:\Users\hp\.m2\repository\com\github\java-json-tools\jackson-coreutils\2.0\jackson-coreutils-2.0.jar;C:\Users\hp\.m2\repository\com\github\java-json-tools\msg-simple\1.2\msg-simple-1.2.jar;C:\Users\hp\.m2\repository\com\github\java-json-tools\btf\1.3\btf-1.3.jar;C:\Users\hp\.m2\repository\com\github\java-json-tools\json-schema-core\1.2.14\json-schema-core-1.2.14.jar;C:\Users\hp\.m2\repository\com\github\java-json-tools\uri-template\0.10\uri-template-0.10.jar;C:\Users\hp\.m2\repository\org\mozilla\rhino\1.7.7.2\rhino-1.7.7.2.jar;C:\Users\hp\.m2\repository\com\sun\mail\mailapi\1.6.2\mailapi-1.6.2.jar;C:\Users\hp\.m2\repository\joda-time\joda-time\2.10.5\joda-time-2.10.5.jar;C:\Users\hp\.m2\repository\com\googlecode\libphonenumber\libphonenumber\8.11.1\libphonenumber-8.11.1.jar;C:\Users\hp\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\hp\.m2\repository\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar;C:\Users\hp\.m2\repository\com\google\guava\guava\33.2.1-jre\guava-33.2.1-jre.jar;C:\Users\hp\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\hp\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\hp\.m2\repository\org\checkerframework\checker-qual\3.42.0\checker-qual-3.42.0.jar;C:\Users\hp\.m2\repository\com\google\errorprone\error_prone_annotations\2.26.1\error_prone_annotations-2.26.1.jar;C:\Users\hp\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\hp\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\hp\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\hp\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\hp\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\hp\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\hp\.m2\repository\com\aventstack\extentreports\5.1.2\extentreports-5.1.2.jar;C:\Users\hp\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\hp\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\hp\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\hp\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\hp\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\hp\.m2\repository\org\apache\poi\poi\5.4.1\poi-5.4.1.jar;C:\Users\hp\.m2\repository\commons-codec\commons-codec\1.18.0\commons-codec-1.18.0.jar;C:\Users\hp\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\hp\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\hp\.m2\repository\commons-io\commons-io\2.18.0\commons-io-2.18.0.jar;C:\Users\hp\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\hp\.m2\repository\org\apache\poi\poi-ooxml\5.4.1\poi-ooxml-5.4.1.jar;C:\Users\hp\.m2\repository\org\apache\poi\poi-ooxml-lite\5.4.1\poi-ooxml-lite-5.4.1.jar;C:\Users\hp\.m2\repository\org\apache\xmlbeans\xmlbeans\5.3.0\xmlbeans-5.3.0.jar;C:\Users\hp\.m2\repository\org\apache\commons\commons-compress\1.27.1\commons-compress-1.27.1.jar;C:\Users\hp\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;C:\Users\hp\.m2\repository\org\apache\logging\log4j\log4j-api\2.17.2\log4j-api-2.17.2.jar;C:\Users\hp\.m2\repository\org\apache\logging\log4j\log4j-core\2.17.2\log4j-core-2.17.2.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\hp\AppData\Local\Temp\surefire16524074822096538309\surefirebooter-20250806100645770_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\hp\AppData\Local\Temp\surefire13310603381682662113\surefirebooter-20250806101522816_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="21.0.5+9-LTS-239"/>
@@ -58,35 +58,157 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="testPostBook" classname="api.test.BookTests" time="5.476">
-    <system-out><![CDATA[10:06:50 INFO  *********Creating Book*********
+  <testcase name="testPostUser" classname="api.test.UserTests" time="5.002">
+    <system-out><![CDATA[10:15:27 INFO  *********Creating User*********
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8; v=1.0
-Date: Wed, 06 Aug 2025 04:36:53 GMT
+Date: Wed, 06 Aug 2025 04:45:30 GMT
 Server: Kestrel
 Transfer-Encoding: chunked
 api-supported-versions: 1.0
 
 {
-    "id": 3,
-    "title": "The Glory and the Dream",
-    "description": "Sit numquam nihil corrupti corporis saepe beatae.",
-    "pageCount": 322,
-    "excerpt": "Excerpt of The Glory and the Dream",
-    "publishDate": "2025-08-06T10:06:48.9219597"
+    "id": 5,
+    "userName": "son.gutkowski",
+    "password": "o9l4vlgn"
 }
-10:06:55 INFO  *********Book is created **********
+10:15:32 INFO  *********User is created **********
 ]]></system-out>
     <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
 SLF4J(W): Defaulting to no-operation (NOP) logger implementation
 SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
 ]]></system-err>
   </testcase>
-  <testcase name="testGetBook" classname="api.test.BookTests" time="0.679">
-    <system-out><![CDATA[10:06:55 INFO  *********Reading Book Info***************
+  <testcase name="testGetUser" classname="api.test.UserTests" time="0.599">
+    <system-out><![CDATA[10:15:32 INFO  *********Reading User Info***************
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8; v=1.0
-Date: Wed, 06 Aug 2025 04:36:54 GMT
+Date: Wed, 06 Aug 2025 04:45:30 GMT
+Server: Kestrel
+Transfer-Encoding: chunked
+api-supported-versions: 1.0
+
+{
+    "id": 5,
+    "userName": "User 5",
+    "password": "Password5"
+}
+10:15:32 INFO  *******User is displayed*******
+]]></system-out>
+  </testcase>
+  <testcase name="testUpdateUser" classname="api.test.UserTests" time="0.522">
+    <system-out><![CDATA[10:15:32 INFO  *******Updating user ***********
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8; v=1.0
+Date: Wed, 06 Aug 2025 04:45:31 GMT
+Server: Kestrel
+Transfer-Encoding: chunked
+api-supported-versions: 1.0
+
+{
+    "id": 5,
+    "userName": "updated.meda.cruickshank",
+    "password": "o9l4vlgn"
+}
+10:15:33 INFO  **********User Updated***********
+]]></system-out>
+  </testcase>
+  <testcase name="testDeleteUser" classname="api.test.UserTests" time="0.499">
+    <system-out><![CDATA[10:15:33 INFO  **********Deleting User***********
+HTTP/1.1 200 OK
+Content-Length: 0
+Date: Wed, 06 Aug 2025 04:45:31 GMT
+Server: Kestrel
+api-supported-versions: 1.0
+10:15:33 INFO  ************User Deleted***********
+]]></system-out>
+  </testcase>
+  <testcase name="testPostUser" classname="api.test.UserTests2" time="0.549">
+    <system-out><![CDATA[10:15:33 INFO  *********Creating User*********
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8; v=1.0
+Date: Wed, 06 Aug 2025 04:45:32 GMT
+Server: Kestrel
+Transfer-Encoding: chunked
+api-supported-versions: 1.0
+
+{
+    "id": 5,
+    "userName": "melda.ratke",
+    "password": "1kewdg4xpyty069"
+}
+10:15:34 INFO  *********User is created **********
+]]></system-out>
+  </testcase>
+  <testcase name="testGetUser" classname="api.test.UserTests2" time="0.495">
+    <system-out><![CDATA[10:15:34 INFO  *********Reading User Info***************
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8; v=1.0
+Date: Wed, 06 Aug 2025 04:45:33 GMT
+Server: Kestrel
+Transfer-Encoding: chunked
+api-supported-versions: 1.0
+
+{
+    "id": 5,
+    "userName": "User 5",
+    "password": "Password5"
+}
+10:15:34 INFO  *******User is displayed*******
+]]></system-out>
+  </testcase>
+  <testcase name="testUpdateUser" classname="api.test.UserTests2" time="0.503">
+    <system-out><![CDATA[10:15:34 INFO  *******Updating user ***********
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8; v=1.0
+Date: Wed, 06 Aug 2025 04:45:33 GMT
+Server: Kestrel
+Transfer-Encoding: chunked
+api-supported-versions: 1.0
+
+{
+    "id": 5,
+    "userName": "updated.ronnie.bergnaum",
+    "password": "1kewdg4xpyty069"
+}
+10:15:35 INFO  **********User Updated***********
+]]></system-out>
+  </testcase>
+  <testcase name="testDeleteUser" classname="api.test.UserTests2" time="0.535">
+    <system-out><![CDATA[10:15:35 INFO  **********Deleting User***********
+HTTP/1.1 200 OK
+Content-Length: 0
+Date: Wed, 06 Aug 2025 04:45:34 GMT
+Server: Kestrel
+api-supported-versions: 1.0
+10:15:35 INFO  ************User Deleted***********
+]]></system-out>
+  </testcase>
+  <testcase name="testPostBook" classname="api.test.BookTests" time="0.504">
+    <system-out><![CDATA[10:15:35 INFO  *********Creating Book*********
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8; v=1.0
+Date: Wed, 06 Aug 2025 04:45:34 GMT
+Server: Kestrel
+Transfer-Encoding: chunked
+api-supported-versions: 1.0
+
+{
+    "id": 3,
+    "title": "In Death Ground",
+    "description": "Dolore nobis magnam iusto accusantium.",
+    "pageCount": 392,
+    "excerpt": "Excerpt of In Death Ground",
+    "publishDate": "2025-08-06T10:15:35.8799587"
+}
+10:15:36 INFO  *********Book is created **********
+]]></system-out>
+  </testcase>
+  <testcase name="testGetBook" classname="api.test.BookTests" time="0.499">
+    <system-out><![CDATA[10:15:36 INFO  *********Reading Book Info***************
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8; v=1.0
+Date: Wed, 06 Aug 2025 04:45:35 GMT
 Server: Kestrel
 Transfer-Encoding: chunked
 api-supported-versions: 1.0
@@ -97,16 +219,86 @@ api-supported-versions: 1.0
     "description": "Lorem lorem lorem. Lorem lorem lorem. Lorem lorem lorem.\n",
     "pageCount": 300,
     "excerpt": "Lorem lorem lorem. Lorem lorem lorem. Lorem lorem lorem.\nLorem lorem lorem. Lorem lorem lorem. Lorem lorem lorem.\nLorem lorem lorem. Lorem lorem lorem. Lorem lorem lorem.\nLorem lorem lorem. Lorem lorem lorem. Lorem lorem lorem.\nLorem lorem lorem. Lorem lorem lorem. Lorem lorem lorem.\n",
-    "publishDate": "2025-08-03T04:36:55.2271755+00:00"
+    "publishDate": "2025-08-03T04:45:35.9453605+00:00"
 }
-10:06:56 INFO  *******Book is displayed*******
+10:15:36 INFO  *******Book is displayed*******
 ]]></system-out>
   </testcase>
-  <testcase name="testUpdateBook" classname="api.test.BookTests" time="0.598">
-    <system-out><![CDATA[10:06:56 INFO  *******Updating Book ***********
+  <testcase name="testUpdateBook" classname="api.test.BookTests" time="0.551">
+    <system-out><![CDATA[10:15:36 INFO  *******Updating Book ***********
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8; v=1.0
-Date: Wed, 06 Aug 2025 04:36:55 GMT
+Date: Wed, 06 Aug 2025 04:45:35 GMT
+Server: Kestrel
+Transfer-Encoding: chunked
+api-supported-versions: 1.0
+
+{
+    "id": 3,
+    "title": "The Golden Apples of the Sun",
+    "description": "Esse error aut qui.",
+    "pageCount": 157,
+    "excerpt": "Updated excerpt for The Golden Apples of the Sun",
+    "publishDate": "2025-08-06T10:15:36.8889598"
+}
+10:15:37 INFO  **********Book Updated***********
+]]></system-out>
+  </testcase>
+  <testcase name="testDeleteBook" classname="api.test.BookTests" time="0.582">
+    <system-out><![CDATA[10:15:37 INFO  **********Deleting Book***********
+HTTP/1.1 200 OK
+Content-Length: 0
+Date: Wed, 06 Aug 2025 04:45:36 GMT
+Server: Kestrel
+api-supported-versions: 1.0
+10:15:37 INFO  ************Book Deleted***********
+]]></system-out>
+  </testcase>
+  <testcase name="testPostBook" classname="api.test.BookTests2" time="0.514">
+    <system-out><![CDATA[10:15:38 INFO  *********Creating Book*********
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8; v=1.0
+Date: Wed, 06 Aug 2025 04:45:36 GMT
+Server: Kestrel
+Transfer-Encoding: chunked
+api-supported-versions: 1.0
+
+{
+    "id": 3,
+    "title": "Cover Her Face",
+    "description": "Quo quis et sed laborum sit magni.",
+    "pageCount": 126,
+    "excerpt": "Excerpt of Cover Her Face",
+    "publishDate": "2025-08-06T10:15:38.0089613"
+}
+10:15:38 INFO  *********Book is created **********
+]]></system-out>
+  </testcase>
+  <testcase name="testGetBook" classname="api.test.BookTests2" time="0.483">
+    <system-out><![CDATA[10:15:38 INFO  *********Reading Book Info***************
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8; v=1.0
+Date: Wed, 06 Aug 2025 04:45:37 GMT
+Server: Kestrel
+Transfer-Encoding: chunked
+api-supported-versions: 1.0
+
+{
+    "id": 3,
+    "title": "Book 3",
+    "description": "Lorem lorem lorem. Lorem lorem lorem. Lorem lorem lorem.\n",
+    "pageCount": 300,
+    "excerpt": "Lorem lorem lorem. Lorem lorem lorem. Lorem lorem lorem.\nLorem lorem lorem. Lorem lorem lorem. Lorem lorem lorem.\nLorem lorem lorem. Lorem lorem lorem. Lorem lorem lorem.\nLorem lorem lorem. Lorem lorem lorem. Lorem lorem lorem.\nLorem lorem lorem. Lorem lorem lorem. Lorem lorem lorem.\n",
+    "publishDate": "2025-08-03T04:45:38.0740858+00:00"
+}
+10:15:39 INFO  *******Book is displayed*******
+]]></system-out>
+  </testcase>
+  <testcase name="testUpdateBook" classname="api.test.BookTests2" time="0.5">
+    <system-out><![CDATA[10:15:39 INFO  *******Updating Book ***********
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8; v=1.0
+Date: Wed, 06 Aug 2025 04:45:37 GMT
 Server: Kestrel
 Transfer-Encoding: chunked
 api-supported-versions: 1.0
@@ -114,99 +306,29 @@ api-supported-versions: 1.0
 {
     "id": 3,
     "title": "The Yellow Meads of Asphodel",
-    "description": "Quaerat cupiditate in et.",
-    "pageCount": 137,
+    "description": "Laudantium atque modi.",
+    "pageCount": 479,
     "excerpt": "Updated excerpt for The Yellow Meads of Asphodel",
-    "publishDate": "2025-08-06T10:06:56.1929633"
+    "publishDate": "2025-08-06T10:15:39.0259608"
 }
-10:06:56 INFO  **********Book Updated***********
+10:15:39 INFO  **********Book Updated***********
 ]]></system-out>
   </testcase>
-  <testcase name="testDeleteBook" classname="api.test.BookTests" time="0.551">
-    <system-out><![CDATA[10:06:56 INFO  **********Deleting Book***********
+  <testcase name="testDeleteBook" classname="api.test.BookTests2" time="0.483">
+    <system-out><![CDATA[10:15:39 INFO  **********Deleting Book***********
 HTTP/1.1 200 OK
 Content-Length: 0
-Date: Wed, 06 Aug 2025 04:36:55 GMT
+Date: Wed, 06 Aug 2025 04:45:38 GMT
 Server: Kestrel
 api-supported-versions: 1.0
-10:06:57 INFO  ************Book Deleted***********
+10:15:40 INFO  ************Book Deleted***********
 ]]></system-out>
   </testcase>
-  <testcase name="testPostBook" classname="api.test.BookTests2" time="0.56">
-    <system-out><![CDATA[10:06:57 INFO  *********Creating Book*********
+  <testcase name="testPostAuthor" classname="api.test.AuthorTests" time="0.508">
+    <system-out><![CDATA[10:15:40 INFO  ************Creating Author****************
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8; v=1.0
-Date: Wed, 06 Aug 2025 04:36:56 GMT
-Server: Kestrel
-Transfer-Encoding: chunked
-api-supported-versions: 1.0
-
-{
-    "id": 3,
-    "title": "Now Sleeps the Crimson Petal",
-    "description": "Est quis eum repellat quia.",
-    "pageCount": 237,
-    "excerpt": "Excerpt of Now Sleeps the Crimson Petal",
-    "publishDate": "2025-08-06T10:06:57.3719582"
-}
-10:06:57 INFO  *********Book is created **********
-]]></system-out>
-  </testcase>
-  <testcase name="testGetBook" classname="api.test.BookTests2" time="0.508">
-    <system-out><![CDATA[10:06:57 INFO  *********Reading Book Info***************
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8; v=1.0
-Date: Wed, 06 Aug 2025 04:36:56 GMT
-Server: Kestrel
-Transfer-Encoding: chunked
-api-supported-versions: 1.0
-
-{
-    "id": 3,
-    "title": "Book 3",
-    "description": "Lorem lorem lorem. Lorem lorem lorem. Lorem lorem lorem.\n",
-    "pageCount": 300,
-    "excerpt": "Lorem lorem lorem. Lorem lorem lorem. Lorem lorem lorem.\nLorem lorem lorem. Lorem lorem lorem. Lorem lorem lorem.\nLorem lorem lorem. Lorem lorem lorem. Lorem lorem lorem.\nLorem lorem lorem. Lorem lorem lorem. Lorem lorem lorem.\nLorem lorem lorem. Lorem lorem lorem. Lorem lorem lorem.\n",
-    "publishDate": "2025-08-03T04:36:57.4716875+00:00"
-}
-10:06:58 INFO  *******Book is displayed*******
-]]></system-out>
-  </testcase>
-  <testcase name="testUpdateBook" classname="api.test.BookTests2" time="0.503">
-    <system-out><![CDATA[10:06:58 INFO  *******Updating Book ***********
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8; v=1.0
-Date: Wed, 06 Aug 2025 04:36:57 GMT
-Server: Kestrel
-Transfer-Encoding: chunked
-api-supported-versions: 1.0
-
-{
-    "id": 3,
-    "title": "In a Glass Darkly",
-    "description": "Velit minus consequatur vero a.",
-    "pageCount": 251,
-    "excerpt": "Updated excerpt for In a Glass Darkly",
-    "publishDate": "2025-08-06T10:06:58.4329601"
-}
-10:06:58 INFO  **********Book Updated***********
-]]></system-out>
-  </testcase>
-  <testcase name="testDeleteBook" classname="api.test.BookTests2" time="0.579">
-    <system-out><![CDATA[10:06:58 INFO  **********Deleting Book***********
-HTTP/1.1 200 OK
-Content-Length: 0
-Date: Wed, 06 Aug 2025 04:36:57 GMT
-Server: Kestrel
-api-supported-versions: 1.0
-10:06:59 INFO  ************Book Deleted***********
-]]></system-out>
-  </testcase>
-  <testcase name="testPostAuthor" classname="api.test.AuthorTests" time="0.542">
-    <system-out><![CDATA[10:06:59 INFO  ************Creating Author****************
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8; v=1.0
-Date: Wed, 06 Aug 2025 04:36:58 GMT
+Date: Wed, 06 Aug 2025 04:45:38 GMT
 Server: Kestrel
 Transfer-Encoding: chunked
 api-supported-versions: 1.0
@@ -214,81 +336,17 @@ api-supported-versions: 1.0
 {
     "id": 3,
     "idBook": 2,
-    "firstName": "Elfreda",
-    "lastName": "Gutmann"
+    "firstName": "Eva",
+    "lastName": "Lebsack"
 }
-10:07:00 INFO  ***************Author Created***************
+10:15:40 INFO  ***************Author Created***************
 ]]></system-out>
   </testcase>
-  <testcase name="testGetAuthor" classname="api.test.AuthorTests" time="0.479">
-    <system-out><![CDATA[10:07:00 INFO  **************Reading Author Info**************
+  <testcase name="testGetAuthor" classname="api.test.AuthorTests" time="0.539">
+    <system-out><![CDATA[10:15:40 INFO  **************Reading Author Info**************
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8; v=1.0
-Date: Wed, 06 Aug 2025 04:36:59 GMT
-Server: Kestrel
-Transfer-Encoding: chunked
-api-supported-versions: 1.0
-
-{
-    "id": 3,
-    "idBook": 2,
-    "firstName": "First Name 3",
-    "lastName": "Last Name 3"
-}
-10:07:00 INFO  ***********Author is displayed************
-]]></system-out>
-  </testcase>
-  <testcase name="testUpdateAuthor" classname="api.test.AuthorTests" time="0.498">
-    <system-out><![CDATA[10:07:00 INFO  **************Updating Author*************
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8; v=1.0
-Date: Wed, 06 Aug 2025 04:36:59 GMT
-Server: Kestrel
-Transfer-Encoding: chunked
-api-supported-versions: 1.0
-
-{
-    "id": 3,
-    "idBook": 2,
-    "firstName": "Updated_Felicia",
-    "lastName": "Gutmann"
-}
-10:07:01 INFO  ************ Author Updated ************
-]]></system-out>
-  </testcase>
-  <testcase name="testDeleteAuthor" classname="api.test.AuthorTests" time="0.499">
-    <system-out><![CDATA[10:07:01 INFO  ************ Deleting Author ************
-HTTP/1.1 200 OK
-Content-Length: 0
-Date: Wed, 06 Aug 2025 04:37:00 GMT
-Server: Kestrel
-api-supported-versions: 1.0
-10:07:01 INFO  ************ Author Deleted ************
-]]></system-out>
-  </testcase>
-  <testcase name="testPostAuthor" classname="api.test.AuthorTests2" time="0.536">
-    <system-out><![CDATA[10:07:01 INFO  ************Creating Author****************
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8; v=1.0
-Date: Wed, 06 Aug 2025 04:37:00 GMT
-Server: Kestrel
-Transfer-Encoding: chunked
-api-supported-versions: 1.0
-
-{
-    "id": 3,
-    "idBook": 2,
-    "firstName": "Chas",
-    "lastName": "Hirthe"
-}
-10:07:02 INFO  ***************Author Created***************
-]]></system-out>
-  </testcase>
-  <testcase name="testGetAuthor" classname="api.test.AuthorTests2" time="0.52">
-    <system-out><![CDATA[10:07:02 INFO  **************Reading Author Info**************
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8; v=1.0
-Date: Wed, 06 Aug 2025 04:37:01 GMT
+Date: Wed, 06 Aug 2025 04:45:39 GMT
 Server: Kestrel
 Transfer-Encoding: chunked
 api-supported-versions: 1.0
@@ -299,14 +357,14 @@ api-supported-versions: 1.0
     "firstName": "First Name 3",
     "lastName": "Last Name 3"
 }
-10:07:02 INFO  ***********Author is displayed************
+10:15:41 INFO  ***********Author is displayed************
 ]]></system-out>
   </testcase>
-  <testcase name="testUpdateAuthor" classname="api.test.AuthorTests2" time="0.495">
-    <system-out><![CDATA[10:07:02 INFO  **************Updating Author*************
+  <testcase name="testUpdateAuthor" classname="api.test.AuthorTests" time="0.489">
+    <system-out><![CDATA[10:15:41 INFO  **************Updating Author*************
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8; v=1.0
-Date: Wed, 06 Aug 2025 04:37:01 GMT
+Date: Wed, 06 Aug 2025 04:45:39 GMT
 Server: Kestrel
 Transfer-Encoding: chunked
 api-supported-versions: 1.0
@@ -314,23 +372,87 @@ api-supported-versions: 1.0
 {
     "id": 3,
     "idBook": 2,
-    "firstName": "Updated_Ardis",
-    "lastName": "Hirthe"
+    "firstName": "Updated_Shawnta",
+    "lastName": "Lebsack"
 }
-10:07:03 INFO  ************ Author Updated ************
+10:15:41 INFO  ************ Author Updated ************
 ]]></system-out>
   </testcase>
-  <testcase name="testDeleteAuthor" classname="api.test.AuthorTests2" time="0.468">
-    <system-out><![CDATA[10:07:03 INFO  ************ Deleting Author ************
+  <testcase name="testDeleteAuthor" classname="api.test.AuthorTests" time="0.475">
+    <system-out><![CDATA[10:15:41 INFO  ************ Deleting Author ************
 HTTP/1.1 200 OK
 Content-Length: 0
-Date: Wed, 06 Aug 2025 04:37:02 GMT
+Date: Wed, 06 Aug 2025 04:45:40 GMT
 Server: Kestrel
 api-supported-versions: 1.0
-10:07:03 INFO  ************ Author Deleted ************
+10:15:42 INFO  ************ Author Deleted ************
 ]]></system-out>
   </testcase>
-  <testcase name="testAuthorFlow[101.0, 2.0, John, Smith](1)" classname="api.test.DDTestsAuthor" time="2.038">
+  <testcase name="testPostAuthor" classname="api.test.AuthorTests2" time="0.49">
+    <system-out><![CDATA[10:15:42 INFO  ************Creating Author****************
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8; v=1.0
+Date: Wed, 06 Aug 2025 04:45:40 GMT
+Server: Kestrel
+Transfer-Encoding: chunked
+api-supported-versions: 1.0
+
+{
+    "id": 3,
+    "idBook": 2,
+    "firstName": "Kristina",
+    "lastName": "Hahn"
+}
+10:15:42 INFO  ***************Author Created***************
+]]></system-out>
+  </testcase>
+  <testcase name="testGetAuthor" classname="api.test.AuthorTests2" time="0.507">
+    <system-out><![CDATA[10:15:42 INFO  **************Reading Author Info**************
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8; v=1.0
+Date: Wed, 06 Aug 2025 04:45:41 GMT
+Server: Kestrel
+Transfer-Encoding: chunked
+api-supported-versions: 1.0
+
+{
+    "id": 3,
+    "idBook": 1,
+    "firstName": "First Name 3",
+    "lastName": "Last Name 3"
+}
+10:15:43 INFO  ***********Author is displayed************
+]]></system-out>
+  </testcase>
+  <testcase name="testUpdateAuthor" classname="api.test.AuthorTests2" time="0.516">
+    <system-out><![CDATA[10:15:43 INFO  **************Updating Author*************
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8; v=1.0
+Date: Wed, 06 Aug 2025 04:45:41 GMT
+Server: Kestrel
+Transfer-Encoding: chunked
+api-supported-versions: 1.0
+
+{
+    "id": 3,
+    "idBook": 2,
+    "firstName": "Updated_Darron",
+    "lastName": "Hahn"
+}
+10:15:43 INFO  ************ Author Updated ************
+]]></system-out>
+  </testcase>
+  <testcase name="testDeleteAuthor" classname="api.test.AuthorTests2" time="0.499">
+    <system-out><![CDATA[10:15:43 INFO  ************ Deleting Author ************
+HTTP/1.1 200 OK
+Content-Length: 0
+Date: Wed, 06 Aug 2025 04:45:42 GMT
+Server: Kestrel
+api-supported-versions: 1.0
+10:15:44 INFO  ************ Author Deleted ************
+]]></system-out>
+  </testcase>
+  <testcase name="testAuthorFlow[101.0, 2.0, John, Smith](1)" classname="api.test.DDTestsAuthor" time="2.006">
     <system-out><![CDATA[{
     "id": 101,
     "idBook": 2,
@@ -339,7 +461,7 @@ api-supported-versions: 1.0
 }
 {
     "id": 101,
-    "idBook": 34,
+    "idBook": 36,
     "firstName": "First Name 101",
     "lastName": "Last Name 101"
 }
@@ -352,7 +474,7 @@ api-supported-versions: 1.0
 
 ]]></system-out>
   </testcase>
-  <testcase name="testAuthorFlow[102.0, 3.0, Jane, Doe](2)" classname="api.test.DDTestsAuthor" time="1.913">
+  <testcase name="testAuthorFlow[102.0, 3.0, Jane, Doe](2)" classname="api.test.DDTestsAuthor" time="1.909">
     <system-out><![CDATA[{
     "id": 102,
     "idBook": 3,
@@ -361,7 +483,7 @@ api-supported-versions: 1.0
 }
 {
     "id": 102,
-    "idBook": 34,
+    "idBook": 35,
     "firstName": "First Name 102",
     "lastName": "Last Name 102"
 }
@@ -374,11 +496,11 @@ api-supported-versions: 1.0
 
 ]]></system-out>
   </testcase>
-  <testcase name="testPostCoverPhoto" classname="api.test.CoverPhotoTests" time="0.545">
-    <system-out><![CDATA[10:07:08 INFO  *******creating CoverPhoto***********
+  <testcase name="testPostCoverPhoto" classname="api.test.CoverPhotoTests" time="0.501">
+    <system-out><![CDATA[10:15:49 INFO  *******creating CoverPhoto***********
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8; v=1.0
-Date: Wed, 06 Aug 2025 04:37:07 GMT
+Date: Wed, 06 Aug 2025 04:45:48 GMT
 Server: Kestrel
 Transfer-Encoding: chunked
 api-supported-versions: 1.0
@@ -386,16 +508,16 @@ api-supported-versions: 1.0
 {
     "id": 3,
     "idBook": 1,
-    "url": "http://lorempixel.com/g/1024/768/food/"
+    "url": "http://lorempixel.com/640/200/city/"
 }
-10:07:09 INFO  **********CoverPhoto created**********
+10:15:49 INFO  **********CoverPhoto created**********
 ]]></system-out>
   </testcase>
-  <testcase name="testGetCoverPhoto" classname="api.test.CoverPhotoTests" time="0.479">
-    <system-out><![CDATA[10:07:09 INFO  **********reading CoverPhoto***********
+  <testcase name="testGetCoverPhoto" classname="api.test.CoverPhotoTests" time="0.516">
+    <system-out><![CDATA[10:15:49 INFO  **********reading CoverPhoto***********
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8; v=1.0
-Date: Wed, 06 Aug 2025 04:37:08 GMT
+Date: Wed, 06 Aug 2025 04:45:48 GMT
 Server: Kestrel
 Transfer-Encoding: chunked
 api-supported-versions: 1.0
@@ -405,14 +527,14 @@ api-supported-versions: 1.0
     "idBook": 1,
     "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=Book 1&w=250&h=350"
 }
-10:07:09 INFO  ********CoverPhoto is displayed***********
+10:15:50 INFO  ********CoverPhoto is displayed***********
 ]]></system-out>
   </testcase>
-  <testcase name="testUpdateCoverPhoto" classname="api.test.CoverPhotoTests" time="0.503">
-    <system-out><![CDATA[10:07:09 INFO  *********updating CoverPhoto**********
+  <testcase name="testUpdateCoverPhoto" classname="api.test.CoverPhotoTests" time="0.485">
+    <system-out><![CDATA[10:15:50 INFO  *********updating CoverPhoto**********
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8; v=1.0
-Date: Wed, 06 Aug 2025 04:37:08 GMT
+Date: Wed, 06 Aug 2025 04:45:49 GMT
 Server: Kestrel
 Transfer-Encoding: chunked
 api-supported-versions: 1.0
@@ -420,26 +542,26 @@ api-supported-versions: 1.0
 {
     "id": 3,
     "idBook": 1,
-    "url": "Updated_http://lorempixel.com/1680/1050/nature/"
+    "url": "Updated_http://lorempixel.com/g/1600/1200/nightlife/"
 }
-10:07:10 INFO  *********CoverPhoto updated***********
+10:15:50 INFO  *********CoverPhoto updated***********
 ]]></system-out>
   </testcase>
-  <testcase name="testDeleteCoverPhoto" classname="api.test.CoverPhotoTests" time="0.52">
-    <system-out><![CDATA[10:07:10 INFO  ***********deleting CoverPhoto***********
+  <testcase name="testDeleteCoverPhoto" classname="api.test.CoverPhotoTests" time="0.495">
+    <system-out><![CDATA[10:15:50 INFO  ***********deleting CoverPhoto***********
 HTTP/1.1 200 OK
 Content-Length: 0
-Date: Wed, 06 Aug 2025 04:37:09 GMT
+Date: Wed, 06 Aug 2025 04:45:49 GMT
 Server: Kestrel
 api-supported-versions: 1.0
-10:07:10 INFO  **********CoverPhoto deleted*************
+10:15:51 INFO  **********CoverPhoto deleted*************
 ]]></system-out>
   </testcase>
-  <testcase name="testPostCoverPhoto" classname="api.test.CoverPhotoTests2" time="0.555">
-    <system-out><![CDATA[10:07:10 INFO  *******creating/Updating CoverPhoto (using PUT) ***********
+  <testcase name="testPostCoverPhoto" classname="api.test.CoverPhotoTests2" time="0.528">
+    <system-out><![CDATA[10:15:51 INFO  *******creating/Updating CoverPhoto (using PUT) ***********
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8; v=1.0
-Date: Wed, 06 Aug 2025 04:37:09 GMT
+Date: Wed, 06 Aug 2025 04:45:50 GMT
 Server: Kestrel
 Transfer-Encoding: chunked
 api-supported-versions: 1.0
@@ -447,16 +569,16 @@ api-supported-versions: 1.0
 {
     "id": 3,
     "idBook": 1,
-    "url": "http://lorempixel.com/720/348/sports/"
+    "url": "http://lorempixel.com/g/1280/1024/business/"
 }
-10:07:11 INFO  **********CoverPhoto created/updated**********
+10:15:51 INFO  **********CoverPhoto created/updated**********
 ]]></system-out>
   </testcase>
-  <testcase name="testGetCoverPhoto" classname="api.test.CoverPhotoTests2" time="0.482">
-    <system-out><![CDATA[10:07:11 INFO  **********reading CoverPhoto***********
+  <testcase name="testGetCoverPhoto" classname="api.test.CoverPhotoTests2" time="0.49">
+    <system-out><![CDATA[10:15:51 INFO  **********reading CoverPhoto***********
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8; v=1.0
-Date: Wed, 06 Aug 2025 04:37:10 GMT
+Date: Wed, 06 Aug 2025 04:45:50 GMT
 Server: Kestrel
 Transfer-Encoding: chunked
 api-supported-versions: 1.0
@@ -466,14 +588,14 @@ api-supported-versions: 1.0
     "idBook": 1,
     "url": "https://placeholdit.imgix.net/~text?txtsize=33&txt=Book 1&w=250&h=350"
 }
-10:07:11 INFO  ********CoverPhoto is displayed***********
+10:15:52 INFO  ********CoverPhoto is displayed***********
 ]]></system-out>
   </testcase>
-  <testcase name="testUpdateCoverPhoto" classname="api.test.CoverPhotoTests2" time="0.475">
-    <system-out><![CDATA[10:07:11 INFO  *********updating CoverPhoto**********
+  <testcase name="testUpdateCoverPhoto" classname="api.test.CoverPhotoTests2" time="0.512">
+    <system-out><![CDATA[10:15:52 INFO  *********updating CoverPhoto**********
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8; v=1.0
-Date: Wed, 06 Aug 2025 04:37:10 GMT
+Date: Wed, 06 Aug 2025 04:45:51 GMT
 Server: Kestrel
 Transfer-Encoding: chunked
 api-supported-versions: 1.0
@@ -481,25 +603,25 @@ api-supported-versions: 1.0
 {
     "id": 3,
     "idBook": 1,
-    "url": "Updated_http://lorempixel.com/320/200/animals/"
+    "url": "Updated_http://lorempixel.com/g/1680/1050/cats/"
 }
-10:07:12 INFO  *********CoverPhoto updated***********
+10:15:52 INFO  *********CoverPhoto updated***********
 ]]></system-out>
   </testcase>
-  <testcase name="testDeleteCoverPhoto" classname="api.test.CoverPhotoTests2" time="0.545">
-    <system-out><![CDATA[10:07:12 INFO  ***********deleting CoverPhoto***********
+  <testcase name="testDeleteCoverPhoto" classname="api.test.CoverPhotoTests2" time="0.57">
+    <system-out><![CDATA[10:15:52 INFO  ***********deleting CoverPhoto***********
 HTTP/1.1 200 OK
 Content-Length: 0
-Date: Wed, 06 Aug 2025 04:37:11 GMT
+Date: Wed, 06 Aug 2025 04:45:51 GMT
 Server: Kestrel
 api-supported-versions: 1.0
-10:07:12 INFO  **********CoverPhoto deleted*************
+10:15:53 INFO  **********CoverPhoto deleted*************
 ]]></system-out>
   </testcase>
-  <testcase name="testCreateCoverPhoto[1, 1, https://dummyimage.com/600x400/1](1)" classname="api.test.DDTestsCoverPhoto" time="0.568">
+  <testcase name="testCreateCoverPhoto[1, 1, https://dummyimage.com/600x400/1](1)" classname="api.test.DDTestsCoverPhoto" time="0.489">
     <system-out><![CDATA[HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8; v=1.0
-Date: Wed, 06 Aug 2025 04:37:12 GMT
+Date: Wed, 06 Aug 2025 04:45:52 GMT
 Server: Kestrel
 Transfer-Encoding: chunked
 api-supported-versions: 1.0
@@ -511,10 +633,10 @@ api-supported-versions: 1.0
 }
 ]]></system-out>
   </testcase>
-  <testcase name="testCreateCoverPhoto[2, 2, https://dummyimage.com/600x400/2](2)" classname="api.test.DDTestsCoverPhoto" time="0.532">
+  <testcase name="testCreateCoverPhoto[2, 2, https://dummyimage.com/600x400/2](2)" classname="api.test.DDTestsCoverPhoto" time="0.474">
     <system-out><![CDATA[HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8; v=1.0
-Date: Wed, 06 Aug 2025 04:37:12 GMT
+Date: Wed, 06 Aug 2025 04:45:52 GMT
 Server: Kestrel
 Transfer-Encoding: chunked
 api-supported-versions: 1.0
@@ -526,10 +648,10 @@ api-supported-versions: 1.0
 }
 ]]></system-out>
   </testcase>
-  <testcase name="testCreateCoverPhoto[3, 3, https://dummyimage.com/600x400/3](3)" classname="api.test.DDTestsCoverPhoto" time="0.513">
+  <testcase name="testCreateCoverPhoto[3, 3, https://dummyimage.com/600x400/3](3)" classname="api.test.DDTestsCoverPhoto" time="0.484">
     <system-out><![CDATA[HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8; v=1.0
-Date: Wed, 06 Aug 2025 04:37:13 GMT
+Date: Wed, 06 Aug 2025 04:45:53 GMT
 Server: Kestrel
 Transfer-Encoding: chunked
 api-supported-versions: 1.0
@@ -541,10 +663,10 @@ api-supported-versions: 1.0
 }
 ]]></system-out>
   </testcase>
-  <testcase name="testGetCoverPhotoById[1, 1, https://dummyimage.com/600x400/1](1)" classname="api.test.DDTestsCoverPhoto" time="0.513">
+  <testcase name="testGetCoverPhotoById[1, 1, https://dummyimage.com/600x400/1](1)" classname="api.test.DDTestsCoverPhoto" time="0.493">
     <system-out><![CDATA[HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8; v=1.0
-Date: Wed, 06 Aug 2025 04:37:13 GMT
+Date: Wed, 06 Aug 2025 04:45:53 GMT
 Server: Kestrel
 Transfer-Encoding: chunked
 api-supported-versions: 1.0
@@ -556,10 +678,10 @@ api-supported-versions: 1.0
 }
 ]]></system-out>
   </testcase>
-  <testcase name="testGetCoverPhotoById[2, 2, https://dummyimage.com/600x400/2](2)" classname="api.test.DDTestsCoverPhoto" time="0.524">
+  <testcase name="testGetCoverPhotoById[2, 2, https://dummyimage.com/600x400/2](2)" classname="api.test.DDTestsCoverPhoto" time="0.491">
     <system-out><![CDATA[HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8; v=1.0
-Date: Wed, 06 Aug 2025 04:37:14 GMT
+Date: Wed, 06 Aug 2025 04:45:54 GMT
 Server: Kestrel
 Transfer-Encoding: chunked
 api-supported-versions: 1.0
@@ -571,10 +693,10 @@ api-supported-versions: 1.0
 }
 ]]></system-out>
   </testcase>
-  <testcase name="testGetCoverPhotoById[3, 3, https://dummyimage.com/600x400/3](3)" classname="api.test.DDTestsCoverPhoto" time="0.507">
+  <testcase name="testGetCoverPhotoById[3, 3, https://dummyimage.com/600x400/3](3)" classname="api.test.DDTestsCoverPhoto" time="0.479">
     <system-out><![CDATA[HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8; v=1.0
-Date: Wed, 06 Aug 2025 04:37:14 GMT
+Date: Wed, 06 Aug 2025 04:45:54 GMT
 Server: Kestrel
 Transfer-Encoding: chunked
 api-supported-versions: 1.0
@@ -589,7 +711,7 @@ api-supported-versions: 1.0
   <testcase name="testUpdateCoverPhoto[1, 1, https://dummyimage.com/600x400/1](1)" classname="api.test.DDTestsCoverPhoto" time="0.511">
     <system-out><![CDATA[HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8; v=1.0
-Date: Wed, 06 Aug 2025 04:37:15 GMT
+Date: Wed, 06 Aug 2025 04:45:55 GMT
 Server: Kestrel
 Transfer-Encoding: chunked
 api-supported-versions: 1.0
@@ -601,10 +723,10 @@ api-supported-versions: 1.0
 }
 ]]></system-out>
   </testcase>
-  <testcase name="testUpdateCoverPhoto[2, 2, https://dummyimage.com/600x400/2](2)" classname="api.test.DDTestsCoverPhoto" time="0.53">
+  <testcase name="testUpdateCoverPhoto[2, 2, https://dummyimage.com/600x400/2](2)" classname="api.test.DDTestsCoverPhoto" time="0.49">
     <system-out><![CDATA[HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8; v=1.0
-Date: Wed, 06 Aug 2025 04:37:15 GMT
+Date: Wed, 06 Aug 2025 04:45:55 GMT
 Server: Kestrel
 Transfer-Encoding: chunked
 api-supported-versions: 1.0
@@ -616,10 +738,10 @@ api-supported-versions: 1.0
 }
 ]]></system-out>
   </testcase>
-  <testcase name="testUpdateCoverPhoto[3, 3, https://dummyimage.com/600x400/3](3)" classname="api.test.DDTestsCoverPhoto" time="0.527">
+  <testcase name="testUpdateCoverPhoto[3, 3, https://dummyimage.com/600x400/3](3)" classname="api.test.DDTestsCoverPhoto" time="0.487">
     <system-out><![CDATA[HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8; v=1.0
-Date: Wed, 06 Aug 2025 04:37:16 GMT
+Date: Wed, 06 Aug 2025 04:45:56 GMT
 Server: Kestrel
 Transfer-Encoding: chunked
 api-supported-versions: 1.0
@@ -631,26 +753,26 @@ api-supported-versions: 1.0
 }
 ]]></system-out>
   </testcase>
-  <testcase name="testDeleteCoverPhotoById[1, 1, https://dummyimage.com/600x400/1](1)" classname="api.test.DDTestsCoverPhoto" time="0.476">
+  <testcase name="testDeleteCoverPhotoById[1, 1, https://dummyimage.com/600x400/1](1)" classname="api.test.DDTestsCoverPhoto" time="0.513">
     <system-out><![CDATA[HTTP/1.1 200 OK
 Content-Length: 0
-Date: Wed, 06 Aug 2025 04:37:16 GMT
+Date: Wed, 06 Aug 2025 04:45:56 GMT
 Server: Kestrel
 api-supported-versions: 1.0
 ]]></system-out>
   </testcase>
-  <testcase name="testDeleteCoverPhotoById[2, 2, https://dummyimage.com/600x400/2](2)" classname="api.test.DDTestsCoverPhoto" time="0.47">
+  <testcase name="testDeleteCoverPhotoById[2, 2, https://dummyimage.com/600x400/2](2)" classname="api.test.DDTestsCoverPhoto" time="0.482">
     <system-out><![CDATA[HTTP/1.1 200 OK
 Content-Length: 0
-Date: Wed, 06 Aug 2025 04:37:17 GMT
+Date: Wed, 06 Aug 2025 04:45:57 GMT
 Server: Kestrel
 api-supported-versions: 1.0
 ]]></system-out>
   </testcase>
-  <testcase name="testDeleteCoverPhotoById[3, 3, https://dummyimage.com/600x400/3](3)" classname="api.test.DDTestsCoverPhoto" time="0.493">
+  <testcase name="testDeleteCoverPhotoById[3, 3, https://dummyimage.com/600x400/3](3)" classname="api.test.DDTestsCoverPhoto" time="0.481">
     <system-out><![CDATA[HTTP/1.1 200 OK
 Content-Length: 0
-Date: Wed, 06 Aug 2025 04:37:17 GMT
+Date: Wed, 06 Aug 2025 04:45:57 GMT
 Server: Kestrel
 api-supported-versions: 1.0
 ]]></system-out>
