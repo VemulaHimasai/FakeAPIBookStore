@@ -1,57 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="30" passed="30" failed="0" skipped="0">
+<testng-results ignored="0" total="38" passed="38" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-08-05T20:00:57 IST" name="BookSuite" finished-at="2025-08-05T20:01:25 IST" duration-ms="28553">
+  <suite started-at="2025-08-06T10:06:47 IST" name="BookSuite" finished-at="2025-08-06T10:07:19 IST" duration-ms="31442">
     <groups>
     </groups>
-    <test started-at="2025-08-05T20:00:57 IST" name="BookTest" finished-at="2025-08-05T20:01:25 IST" duration-ms="28553">
+    <test started-at="2025-08-06T10:06:47 IST" name="BookTest" finished-at="2025-08-06T10:07:19 IST" duration-ms="31442">
       <class name="api.test.AuthorTests2">
-        <test-method is-config="true" signature="setup()[pri:0, instance:api.test.AuthorTests2@9597028]" started-at="2025-08-05T20:01:07 IST" name="setup" finished-at="2025-08-05T20:01:07 IST" duration-ms="169" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:api.test.AuthorTests2@72967906]" started-at="2025-08-06T10:07:01 IST" name="setup" finished-at="2025-08-06T10:07:01 IST" duration-ms="49" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testPostAuthor()[pri:1, instance:api.test.AuthorTests2@9597028]" started-at="2025-08-05T20:01:07 IST" name="testPostAuthor" finished-at="2025-08-05T20:01:08 IST" duration-ms="543" status="PASS">
+        <test-method signature="testPostAuthor()[pri:1, instance:api.test.AuthorTests2@72967906]" started-at="2025-08-06T10:07:01 IST" name="testPostAuthor" finished-at="2025-08-06T10:07:02 IST" duration-ms="509" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testPostAuthor -->
-        <test-method signature="testGetAuthor()[pri:2, instance:api.test.AuthorTests2@9597028]" started-at="2025-08-05T20:01:08 IST" name="testGetAuthor" finished-at="2025-08-05T20:01:08 IST" duration-ms="552" status="PASS">
+        <test-method signature="testGetAuthor()[pri:2, instance:api.test.AuthorTests2@72967906]" started-at="2025-08-06T10:07:02 IST" name="testGetAuthor" finished-at="2025-08-06T10:07:02 IST" duration-ms="519" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetAuthor -->
-        <test-method signature="testUpdateAuthor()[pri:3, instance:api.test.AuthorTests2@9597028]" started-at="2025-08-05T20:01:08 IST" name="testUpdateAuthor" finished-at="2025-08-05T20:01:09 IST" duration-ms="520" status="PASS">
+        <test-method signature="testUpdateAuthor()[pri:3, instance:api.test.AuthorTests2@72967906]" started-at="2025-08-06T10:07:02 IST" name="testUpdateAuthor" finished-at="2025-08-06T10:07:03 IST" duration-ms="513" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testUpdateAuthor -->
-        <test-method signature="testDeleteAuthor()[pri:4, instance:api.test.AuthorTests2@9597028]" started-at="2025-08-05T20:01:09 IST" name="testDeleteAuthor" finished-at="2025-08-05T20:01:09 IST" duration-ms="517" status="PASS">
+        <test-method signature="testDeleteAuthor()[pri:4, instance:api.test.AuthorTests2@72967906]" started-at="2025-08-06T10:07:03 IST" name="testDeleteAuthor" finished-at="2025-08-06T10:07:03 IST" duration-ms="483" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDeleteAuthor -->
       </class> <!-- api.test.AuthorTests2 -->
       <class name="api.test.CoverPhotoTests">
-        <test-method is-config="true" signature="setup()[pri:0, instance:api.test.CoverPhotoTests@4efbca5a]" started-at="2025-08-05T20:01:15 IST" name="setup" finished-at="2025-08-05T20:01:15 IST" duration-ms="59" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:api.test.CoverPhotoTests@2f9f7dcf]" started-at="2025-08-06T10:07:08 IST" name="setup" finished-at="2025-08-06T10:07:08 IST" duration-ms="19" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testPostCoverPhoto()[pri:1, instance:api.test.CoverPhotoTests@4efbca5a]" started-at="2025-08-05T20:01:15 IST" name="testPostCoverPhoto" finished-at="2025-08-05T20:01:15 IST" duration-ms="585" status="PASS">
+        <test-method signature="testPostCoverPhoto()[pri:1, instance:api.test.CoverPhotoTests@2f9f7dcf]" started-at="2025-08-06T10:07:08 IST" name="testPostCoverPhoto" finished-at="2025-08-06T10:07:09 IST" duration-ms="528" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testPostCoverPhoto -->
-        <test-method signature="testGetCoverPhoto()[pri:2, instance:api.test.CoverPhotoTests@4efbca5a]" started-at="2025-08-05T20:01:15 IST" name="testGetCoverPhoto" finished-at="2025-08-05T20:01:16 IST" duration-ms="491" status="PASS">
+        <test-method signature="testGetCoverPhoto()[pri:2, instance:api.test.CoverPhotoTests@2f9f7dcf]" started-at="2025-08-06T10:07:09 IST" name="testGetCoverPhoto" finished-at="2025-08-06T10:07:09 IST" duration-ms="477" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetCoverPhoto -->
-        <test-method signature="testUpdateCoverPhoto()[pri:3, instance:api.test.CoverPhotoTests@4efbca5a]" started-at="2025-08-05T20:01:16 IST" name="testUpdateCoverPhoto" finished-at="2025-08-05T20:01:17 IST" duration-ms="520" status="PASS">
+        <test-method signature="testUpdateCoverPhoto()[pri:3, instance:api.test.CoverPhotoTests@2f9f7dcf]" started-at="2025-08-06T10:07:09 IST" name="testUpdateCoverPhoto" finished-at="2025-08-06T10:07:10 IST" duration-ms="508" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testUpdateCoverPhoto -->
-        <test-method signature="testDeleteCoverPhoto()[pri:4, instance:api.test.CoverPhotoTests@4efbca5a]" started-at="2025-08-05T20:01:17 IST" name="testDeleteCoverPhoto" finished-at="2025-08-05T20:01:17 IST" duration-ms="496" status="PASS">
+        <test-method signature="testDeleteCoverPhoto()[pri:4, instance:api.test.CoverPhotoTests@2f9f7dcf]" started-at="2025-08-06T10:07:10 IST" name="testDeleteCoverPhoto" finished-at="2025-08-06T10:07:10 IST" duration-ms="528" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDeleteCoverPhoto -->
       </class> <!-- api.test.CoverPhotoTests -->
       <class name="api.test.DDTestsCoverPhoto">
-        <test-method signature="testCreateCoverPhoto(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:api.test.DDTestsCoverPhoto@59662a0b]" started-at="2025-08-05T20:01:19 IST" name="testCreateCoverPhoto" data-provider="coverPhotoData" finished-at="2025-08-05T20:01:20 IST" duration-ms="512" status="PASS">
+        <test-method signature="testCreateCoverPhoto(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:api.test.DDTestsCoverPhoto@35e2d654]" started-at="2025-08-06T10:07:13 IST" name="testCreateCoverPhoto" data-provider="coverPhotoData" finished-at="2025-08-06T10:07:13 IST" duration-ms="564" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -72,7 +72,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCreateCoverPhoto -->
-        <test-method signature="testCreateCoverPhoto(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:api.test.DDTestsCoverPhoto@59662a0b]" started-at="2025-08-05T20:01:20 IST" name="testCreateCoverPhoto" data-provider="coverPhotoData" finished-at="2025-08-05T20:01:20 IST" duration-ms="501" status="PASS">
+        <test-method signature="testCreateCoverPhoto(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:api.test.DDTestsCoverPhoto@35e2d654]" started-at="2025-08-06T10:07:13 IST" name="testCreateCoverPhoto" data-provider="coverPhotoData" finished-at="2025-08-06T10:07:14 IST" duration-ms="518" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -93,7 +93,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCreateCoverPhoto -->
-        <test-method signature="testCreateCoverPhoto(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:api.test.DDTestsCoverPhoto@59662a0b]" started-at="2025-08-05T20:01:20 IST" name="testCreateCoverPhoto" data-provider="coverPhotoData" finished-at="2025-08-05T20:01:21 IST" duration-ms="478" status="PASS">
+        <test-method signature="testCreateCoverPhoto(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:api.test.DDTestsCoverPhoto@35e2d654]" started-at="2025-08-06T10:07:14 IST" name="testCreateCoverPhoto" data-provider="coverPhotoData" finished-at="2025-08-06T10:07:14 IST" duration-ms="502" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -114,7 +114,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCreateCoverPhoto -->
-        <test-method signature="testGetCoverPhotoById(java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:api.test.DDTestsCoverPhoto@59662a0b]" started-at="2025-08-05T20:01:21 IST" name="testGetCoverPhotoById" data-provider="coverPhotoData" finished-at="2025-08-05T20:01:21 IST" duration-ms="503" status="PASS">
+        <test-method signature="testGetCoverPhotoById(java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:api.test.DDTestsCoverPhoto@35e2d654]" started-at="2025-08-06T10:07:14 IST" name="testGetCoverPhotoById" data-provider="coverPhotoData" finished-at="2025-08-06T10:07:15 IST" duration-ms="507" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -135,7 +135,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetCoverPhotoById -->
-        <test-method signature="testGetCoverPhotoById(java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:api.test.DDTestsCoverPhoto@59662a0b]" started-at="2025-08-05T20:01:21 IST" name="testGetCoverPhotoById" data-provider="coverPhotoData" finished-at="2025-08-05T20:01:22 IST" duration-ms="495" status="PASS">
+        <test-method signature="testGetCoverPhotoById(java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:api.test.DDTestsCoverPhoto@35e2d654]" started-at="2025-08-06T10:07:15 IST" name="testGetCoverPhotoById" data-provider="coverPhotoData" finished-at="2025-08-06T10:07:15 IST" duration-ms="521" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -156,7 +156,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetCoverPhotoById -->
-        <test-method signature="testGetCoverPhotoById(java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:api.test.DDTestsCoverPhoto@59662a0b]" started-at="2025-08-05T20:01:22 IST" name="testGetCoverPhotoById" data-provider="coverPhotoData" finished-at="2025-08-05T20:01:22 IST" duration-ms="474" status="PASS">
+        <test-method signature="testGetCoverPhotoById(java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:api.test.DDTestsCoverPhoto@35e2d654]" started-at="2025-08-06T10:07:15 IST" name="testGetCoverPhotoById" data-provider="coverPhotoData" finished-at="2025-08-06T10:07:16 IST" duration-ms="498" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -177,7 +177,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetCoverPhotoById -->
-        <test-method signature="testUpdateCoverPhoto(java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:api.test.DDTestsCoverPhoto@59662a0b]" started-at="2025-08-05T20:01:22 IST" name="testUpdateCoverPhoto" data-provider="coverPhotoData" finished-at="2025-08-05T20:01:23 IST" duration-ms="512" status="PASS">
+        <test-method signature="testUpdateCoverPhoto(java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:api.test.DDTestsCoverPhoto@35e2d654]" started-at="2025-08-06T10:07:16 IST" name="testUpdateCoverPhoto" data-provider="coverPhotoData" finished-at="2025-08-06T10:07:16 IST" duration-ms="509" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -198,7 +198,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testUpdateCoverPhoto -->
-        <test-method signature="testUpdateCoverPhoto(java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:api.test.DDTestsCoverPhoto@59662a0b]" started-at="2025-08-05T20:01:23 IST" name="testUpdateCoverPhoto" data-provider="coverPhotoData" finished-at="2025-08-05T20:01:23 IST" duration-ms="503" status="PASS">
+        <test-method signature="testUpdateCoverPhoto(java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:api.test.DDTestsCoverPhoto@35e2d654]" started-at="2025-08-06T10:07:16 IST" name="testUpdateCoverPhoto" data-provider="coverPhotoData" finished-at="2025-08-06T10:07:17 IST" duration-ms="520" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -219,7 +219,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testUpdateCoverPhoto -->
-        <test-method signature="testUpdateCoverPhoto(java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:api.test.DDTestsCoverPhoto@59662a0b]" started-at="2025-08-05T20:01:23 IST" name="testUpdateCoverPhoto" data-provider="coverPhotoData" finished-at="2025-08-05T20:01:24 IST" duration-ms="518" status="PASS">
+        <test-method signature="testUpdateCoverPhoto(java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:api.test.DDTestsCoverPhoto@35e2d654]" started-at="2025-08-06T10:07:17 IST" name="testUpdateCoverPhoto" data-provider="coverPhotoData" finished-at="2025-08-06T10:07:17 IST" duration-ms="537" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -240,7 +240,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testUpdateCoverPhoto -->
-        <test-method signature="testDeleteCoverPhotoById(java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:api.test.DDTestsCoverPhoto@59662a0b]" started-at="2025-08-05T20:01:24 IST" name="testDeleteCoverPhotoById" data-provider="coverPhotoData" finished-at="2025-08-05T20:01:24 IST" duration-ms="485" status="PASS">
+        <test-method signature="testDeleteCoverPhotoById(java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:api.test.DDTestsCoverPhoto@35e2d654]" started-at="2025-08-06T10:07:17 IST" name="testDeleteCoverPhotoById" data-provider="coverPhotoData" finished-at="2025-08-06T10:07:18 IST" duration-ms="472" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -261,7 +261,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDeleteCoverPhotoById -->
-        <test-method signature="testDeleteCoverPhotoById(java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:api.test.DDTestsCoverPhoto@59662a0b]" started-at="2025-08-05T20:01:24 IST" name="testDeleteCoverPhotoById" data-provider="coverPhotoData" finished-at="2025-08-05T20:01:25 IST" duration-ms="483" status="PASS">
+        <test-method signature="testDeleteCoverPhotoById(java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:api.test.DDTestsCoverPhoto@35e2d654]" started-at="2025-08-06T10:07:18 IST" name="testDeleteCoverPhotoById" data-provider="coverPhotoData" finished-at="2025-08-06T10:07:18 IST" duration-ms="472" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -282,7 +282,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDeleteCoverPhotoById -->
-        <test-method signature="testDeleteCoverPhotoById(java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:api.test.DDTestsCoverPhoto@59662a0b]" started-at="2025-08-05T20:01:25 IST" name="testDeleteCoverPhotoById" data-provider="coverPhotoData" finished-at="2025-08-05T20:01:25 IST" duration-ms="482" status="PASS">
+        <test-method signature="testDeleteCoverPhotoById(java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:api.test.DDTestsCoverPhoto@35e2d654]" started-at="2025-08-06T10:07:18 IST" name="testDeleteCoverPhotoById" data-provider="coverPhotoData" finished-at="2025-08-06T10:07:19 IST" duration-ms="495" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -305,51 +305,95 @@
         </test-method> <!-- testDeleteCoverPhotoById -->
       </class> <!-- api.test.DDTestsCoverPhoto -->
       <class name="api.test.AuthorTests">
-        <test-method is-config="true" signature="setup()[pri:0, instance:api.test.AuthorTests@c8c12ac]" started-at="2025-08-05T20:00:57 IST" name="setup" finished-at="2025-08-05T20:00:59 IST" duration-ms="1540" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:api.test.AuthorTests@1a482e36]" started-at="2025-08-06T10:06:59 IST" name="setup" finished-at="2025-08-06T10:06:59 IST" duration-ms="125" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testPostAuthor()[pri:1, instance:api.test.AuthorTests@c8c12ac]" started-at="2025-08-05T20:00:59 IST" name="testPostAuthor" finished-at="2025-08-05T20:01:05 IST" duration-ms="6467" status="PASS">
+        <test-method signature="testPostAuthor()[pri:1, instance:api.test.AuthorTests@1a482e36]" started-at="2025-08-06T10:06:59 IST" name="testPostAuthor" finished-at="2025-08-06T10:07:00 IST" duration-ms="520" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testPostAuthor -->
-        <test-method signature="testGetAuthor()[pri:2, instance:api.test.AuthorTests@c8c12ac]" started-at="2025-08-05T20:01:05 IST" name="testGetAuthor" finished-at="2025-08-05T20:01:06 IST" duration-ms="627" status="PASS">
+        <test-method signature="testGetAuthor()[pri:2, instance:api.test.AuthorTests@1a482e36]" started-at="2025-08-06T10:07:00 IST" name="testGetAuthor" finished-at="2025-08-06T10:07:00 IST" duration-ms="486" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetAuthor -->
-        <test-method signature="testUpdateAuthor()[pri:3, instance:api.test.AuthorTests@c8c12ac]" started-at="2025-08-05T20:01:06 IST" name="testUpdateAuthor" finished-at="2025-08-05T20:01:07 IST" duration-ms="548" status="PASS">
+        <test-method signature="testUpdateAuthor()[pri:3, instance:api.test.AuthorTests@1a482e36]" started-at="2025-08-06T10:07:00 IST" name="testUpdateAuthor" finished-at="2025-08-06T10:07:01 IST" duration-ms="510" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testUpdateAuthor -->
-        <test-method signature="testDeleteAuthor()[pri:4, instance:api.test.AuthorTests@c8c12ac]" started-at="2025-08-05T20:01:07 IST" name="testDeleteAuthor" finished-at="2025-08-05T20:01:07 IST" duration-ms="532" status="PASS">
+        <test-method signature="testDeleteAuthor()[pri:4, instance:api.test.AuthorTests@1a482e36]" started-at="2025-08-06T10:07:01 IST" name="testDeleteAuthor" finished-at="2025-08-06T10:07:01 IST" duration-ms="497" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDeleteAuthor -->
       </class> <!-- api.test.AuthorTests -->
-      <class name="api.test.CoverPhotoTests2">
-        <test-method is-config="true" signature="setup()[pri:0, instance:api.test.CoverPhotoTests2@1b7cc17c]" started-at="2025-08-05T20:01:17 IST" name="setup" finished-at="2025-08-05T20:01:17 IST" duration-ms="46" status="PASS">
+      <class name="api.test.BookTests2">
+        <test-method is-config="true" signature="setup()[pri:0, instance:api.test.BookTests2@67c27493]" started-at="2025-08-06T10:06:57 IST" name="setup" finished-at="2025-08-06T10:06:57 IST" duration-ms="38" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testPostCoverPhoto()[pri:1, instance:api.test.CoverPhotoTests2@1b7cc17c]" started-at="2025-08-05T20:01:17 IST" name="testPostCoverPhoto" finished-at="2025-08-05T20:01:18 IST" duration-ms="547" status="PASS">
+        <test-method signature="testPostBook()[pri:1, instance:api.test.BookTests2@67c27493]" started-at="2025-08-06T10:06:57 IST" name="testPostBook" finished-at="2025-08-06T10:06:57 IST" duration-ms="531" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPostBook -->
+        <test-method signature="testGetBook()[pri:2, instance:api.test.BookTests2@67c27493]" started-at="2025-08-06T10:06:57 IST" name="testGetBook" finished-at="2025-08-06T10:06:58 IST" duration-ms="523" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetBook -->
+        <test-method signature="testUpdateBook()[pri:3, instance:api.test.BookTests2@67c27493]" started-at="2025-08-06T10:06:58 IST" name="testUpdateBook" finished-at="2025-08-06T10:06:58 IST" duration-ms="499" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateBook -->
+        <test-method signature="testDeleteBook()[pri:4, instance:api.test.BookTests2@67c27493]" started-at="2025-08-06T10:06:58 IST" name="testDeleteBook" finished-at="2025-08-06T10:06:59 IST" duration-ms="485" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteBook -->
+      </class> <!-- api.test.BookTests2 -->
+      <class name="api.test.BookTests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:api.test.BookTests@9597028]" started-at="2025-08-06T10:06:48 IST" name="setup" finished-at="2025-08-06T10:06:50 IST" duration-ms="1496" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testPostBook()[pri:1, instance:api.test.BookTests@9597028]" started-at="2025-08-06T10:06:50 IST" name="testPostBook" finished-at="2025-08-06T10:06:55 IST" duration-ms="5435" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPostBook -->
+        <test-method signature="testGetBook()[pri:2, instance:api.test.BookTests@9597028]" started-at="2025-08-06T10:06:55 IST" name="testGetBook" finished-at="2025-08-06T10:06:56 IST" duration-ms="670" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetBook -->
+        <test-method signature="testUpdateBook()[pri:3, instance:api.test.BookTests@9597028]" started-at="2025-08-06T10:06:56 IST" name="testUpdateBook" finished-at="2025-08-06T10:06:56 IST" duration-ms="606" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateBook -->
+        <test-method signature="testDeleteBook()[pri:4, instance:api.test.BookTests@9597028]" started-at="2025-08-06T10:06:56 IST" name="testDeleteBook" finished-at="2025-08-06T10:06:57 IST" duration-ms="528" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteBook -->
+      </class> <!-- api.test.BookTests -->
+      <class name="api.test.CoverPhotoTests2">
+        <test-method is-config="true" signature="setup()[pri:0, instance:api.test.CoverPhotoTests2@747ddf94]" started-at="2025-08-06T10:07:10 IST" name="setup" finished-at="2025-08-06T10:07:10 IST" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testPostCoverPhoto()[pri:1, instance:api.test.CoverPhotoTests2@747ddf94]" started-at="2025-08-06T10:07:10 IST" name="testPostCoverPhoto" finished-at="2025-08-06T10:07:11 IST" duration-ms="536" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testPostCoverPhoto -->
-        <test-method signature="testGetCoverPhoto()[pri:2, instance:api.test.CoverPhotoTests2@1b7cc17c]" started-at="2025-08-05T20:01:18 IST" name="testGetCoverPhoto" finished-at="2025-08-05T20:01:18 IST" duration-ms="503" status="PASS">
+        <test-method signature="testGetCoverPhoto()[pri:2, instance:api.test.CoverPhotoTests2@747ddf94]" started-at="2025-08-06T10:07:11 IST" name="testGetCoverPhoto" finished-at="2025-08-06T10:07:11 IST" duration-ms="489" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetCoverPhoto -->
-        <test-method signature="testUpdateCoverPhoto()[pri:3, instance:api.test.CoverPhotoTests2@1b7cc17c]" started-at="2025-08-05T20:01:18 IST" name="testUpdateCoverPhoto" finished-at="2025-08-05T20:01:19 IST" duration-ms="513" status="PASS">
+        <test-method signature="testUpdateCoverPhoto()[pri:3, instance:api.test.CoverPhotoTests2@747ddf94]" started-at="2025-08-06T10:07:11 IST" name="testUpdateCoverPhoto" finished-at="2025-08-06T10:07:12 IST" duration-ms="479" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testUpdateCoverPhoto -->
-        <test-method signature="testDeleteCoverPhoto()[pri:4, instance:api.test.CoverPhotoTests2@1b7cc17c]" started-at="2025-08-05T20:01:19 IST" name="testDeleteCoverPhoto" finished-at="2025-08-05T20:01:19 IST" duration-ms="489" status="PASS">
+        <test-method signature="testDeleteCoverPhoto()[pri:4, instance:api.test.CoverPhotoTests2@747ddf94]" started-at="2025-08-06T10:07:12 IST" name="testDeleteCoverPhoto" finished-at="2025-08-06T10:07:12 IST" duration-ms="491" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDeleteCoverPhoto -->
       </class> <!-- api.test.CoverPhotoTests2 -->
       <class name="api.test.DDTestsAuthor">
-        <test-method signature="testAuthorFlow(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:api.test.DDTestsAuthor@6069db50]" started-at="2025-08-05T20:01:11 IST" name="testAuthorFlow" data-provider="authorData" finished-at="2025-08-05T20:01:13 IST" duration-ms="2122" status="PASS">
+        <test-method signature="testAuthorFlow(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:api.test.DDTestsAuthor@5b8dfcc1]" started-at="2025-08-06T10:07:04 IST" name="testAuthorFlow" data-provider="authorData" finished-at="2025-08-06T10:07:06 IST" duration-ms="2029" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -375,7 +419,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testAuthorFlow -->
-        <test-method signature="testAuthorFlow(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:api.test.DDTestsAuthor@6069db50]" started-at="2025-08-05T20:01:13 IST" name="testAuthorFlow" data-provider="authorData" finished-at="2025-08-05T20:01:15 IST" duration-ms="2030" status="PASS">
+        <test-method signature="testAuthorFlow(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:api.test.DDTestsAuthor@5b8dfcc1]" started-at="2025-08-06T10:07:06 IST" name="testAuthorFlow" data-provider="authorData" finished-at="2025-08-06T10:07:08 IST" duration-ms="1920" status="PASS">
           <params>
             <param index="0">
               <value>
